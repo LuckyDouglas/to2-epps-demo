@@ -1,5 +1,6 @@
 /* ============ TOKENS ============ */
 :root {
+  --ink:#16202e;
   --orange:#e54c08;
   --navy: #0b1f4b;
   --navy-dark: #081536;
@@ -23,7 +24,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-body { font-family: var(--font-body); color: var(--text-dark); line-height: 1.5; }
+body { font-family: var(--font-body); color: var(--text-dark); line-height: 1.5;   -webkit-font-smoothing:antialiased;color:var(--ink);}
 /* ============ EVITAR SCROLL HORIZONTAL ============ */
 
 img { max-width: 100%; display: block; }
