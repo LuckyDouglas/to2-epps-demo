@@ -1,0 +1,271 @@
+[
+    {
+        "id": 1,
+        "nombre": "Casco de Seguridad 3M H-700",
+        "imagen": "img/Casco de Seguridad 3M H-700.jpg",
+        "imagenes": [
+            "img/Casco de Seguridad 3M H-700.jpg",
+            "img/Casco de Seguridad 3M H-700-2.jpg",
+            "img/Casco de Seguridad 3M H-700-3.jpg"
+        ],
+        "precio": 35.00,
+        "destacado": true,
+        "categoria": "Casco",
+        "marca": "3M",
+        "descripcion": "Casco de seguridad industrial con suspensión de 6 puntos, diseñado para proteger contra impactos y perforaciones. Ideal para construcción, minería e industrias en general.",
+        "especificaciones": [
+            {
+                "etiqueta": "Material",
+                "valor": "Polietileno de alta densidad (HDPE)"
+            },
+            {
+                "etiqueta": "Peso",
+                "valor": "380 g"
+            },
+            {
+                "etiqueta": "Talla",
+                "valor": "Única (54-62 cm)"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "ANSI Z89.1-2014, EN 397"
+            },
+            {
+                "etiqueta": "Color",
+                "valor": "Amarillo, Blanco, Azul"
+            }
+        ],
+        "colores": [
+            "Amarillo",
+            "Blanco",
+            "Azul"
+        ],
+        "tallas": [
+            "Única"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Guantes de Nitrilo Steelpro",
+        "imagen": "img/Guantes de Nitrilo Steelpro.webp",
+        "imagenes": [
+            "img/Guantes de Nitrilo Steelpro.webp",
+            "img/Guantes de Nitrilo Steelpro-2.webp"
+        ],
+        "precio": 18.00,
+        "destacado": true,
+        "categoria": "Guante",
+        "marca": "Steelpro",
+        "descripcion": "Guantes de nitrilo desechables de alta resistencia, libres de látex, con textura en los dedos para mejor agarre. Ideales para industria alimentaria, laboratorios y mecánica.",
+        "especificaciones": [
+            {
+                "etiqueta": "Material",
+                "valor": "Nitrilo"
+            },
+            {
+                "etiqueta": "Talla",
+                "valor": "S, M, L, XL"
+            },
+            {
+                "etiqueta": "Color",
+                "valor": "Azul"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "EN 374, EN 455"
+            },
+            {
+                "etiqueta": "Uso",
+                "valor": "Desechable"
+            }
+        ],
+        "colores": [
+            "Azul"
+        ],
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Lentes de Seguridad 3M Virtua",
+        "imagen": "img/Lentes de Seguridad 3M Virtua.webp",
+        "imagenes": [
+            "img/Lentes de Seguridad 3M Virtua.webp",
+            "img/Lentes de Seguridad 3M Virtua-2.webp"
+        ],
+        "precio": 15.00,
+        "destacado": true,
+        "categoria": "Lente",
+        "marca": "3M",
+        "descripcion": "Lentes de seguridad livianos con protección contra impacto y antiempañante. Diseño envolvente para mayor cobertura y comodidad.",
+        "especificaciones": [
+            {
+                "etiqueta": "Material",
+                "valor": "Policarbonato"
+            },
+            {
+                "etiqueta": "Peso",
+                "valor": "24 g"
+            },
+            {
+                "etiqueta": "Protección",
+                "valor": "Impacto, UV, antiempañante"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "ANSI Z87.1, EN 166"
+            },
+            {
+                "etiqueta": "Color",
+                "valor": "Transparente, Tinte gris"
+            }
+        ],
+        "colores": [
+            "Transparente",
+            "Tinte gris"
+        ],
+        "tallas": [
+            "Única"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Bota de Seguridad Clute",
+        "imagen": "img/Bota de Seguridad Clute.webp",
+        "imagenes": [
+            "img/Bota de Seguridad Clute.webp",
+            "img/Bota de Seguridad Clute-2.webp"
+        ],
+        "precio": 120.00,
+        "destacado": true,
+        "categoria": "Zapato",
+        "marca": "Clute",
+        "descripcion": "Bota de seguridad con punta de acero y suela antideslizante. Resistente a aceites, grasas y perforaciones. Ideal para construcción e industria pesada.",
+        "especificaciones": [
+            {
+                "etiqueta": "Material",
+                "valor": "Cuero genuino"
+            },
+            {
+                "etiqueta": "Suela",
+                "valor": "Poliuretano (PU)"
+            },
+            {
+                "etiqueta": "Protección",
+                "valor": "Punta de acero, antideslizante"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "ISO 20345, EN 345"
+            },
+            {
+                "etiqueta": "Talla",
+                "valor": "39-45"
+            }
+        ],
+        "colores": [
+            "Negro"
+        ],
+        "tallas": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Chaleco Reflectivo Naranja",
+        "imagen": "img/Chaleco Reflectivo Naranja.jpg",
+        "imagenes": [
+            "img/Chaleco Reflectivo Naranja.jpg",
+            "img/Chaleco Reflectivo Naranja-2.jpg"
+        ],
+        "precio": 12.00,
+        "destacado": true,
+        "categoria": "Ropa",
+        "marca": "Delta Plus",
+        "descripcion": "Chaleco reflectivo de alta visibilidad clase 2. Ideal para seguridad vial, construcción y trabajos en exteriores.",
+        "especificaciones": [
+            {
+                "etiqueta": "Material",
+                "valor": "Poliéster 100%"
+            },
+            {
+                "etiqueta": "Color",
+                "valor": "Naranja con bandas plateadas"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "EN 471, ANSI/ISEA 107"
+            },
+            {
+                "etiqueta": "Talla",
+                "valor": "S, M, L, XL, XXL"
+            },
+            {
+                "etiqueta": "Cierre",
+                "valor": "Velcro"
+            }
+        ],
+        "colores": [
+            "Naranja"
+        ],
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Respirador KN95 Genérico",
+        "imagen": "img/Respirador KN95 Genérico.png",
+        "imagenes": [
+            "img/Respirador KN95 Genérico.png",
+            "img/Respirador KN95 Genérico-2.png"
+        ],
+        "precio": 6.00,
+        "destacado": false,
+        "categoria": "Respiratoria",
+        "marca": "Genérico",
+        "descripcion": "Respirador KN95 de 5 capas, con filtro de carbón activado. Protege contra partículas, polvo, humo y bacterias. Ideal para uso diario y profesional.",
+        "especificaciones": [
+            {
+                "etiqueta": "Capas",
+                "valor": "5 capas"
+            },
+            {
+                "etiqueta": "Filtro",
+                "valor": "Carbón activado"
+            },
+            {
+                "etiqueta": "Norma",
+                "valor": "GB 2626-2006"
+            },
+            {
+                "etiqueta": "Uso",
+                "valor": "Desechable"
+            },
+            {
+                "etiqueta": "Color",
+                "valor": "Blanco"
+            }
+        ],
+        "colores": [
+            "Blanco"
+        ],
+        "tallas": [
+            "Única"
+        ]
+    }
+]
