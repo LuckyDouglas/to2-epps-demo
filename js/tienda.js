@@ -264,6 +264,32 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(data => {
                 productos = data;
+
+                // ==========================================
+                // 🆕 NUEVO: LEER PARÁMETROS DE LA URL Y MARCAR CHECKBOX
+                // ==========================================
+                const params = new URLSearchParams(window.location.search);
+                const categoriaUrl = params.get('categoria');
+                
+                if (categoriaUrl) {
+                    // Buscamos el checkbox cuyo 'value' sea exactamente el nombre enviado
+                    // Ejemplo: "Protección de Cabeza", "Protección de Manos"
+                    const checkboxTarget = Array.from(categoryCheckboxes).find(cb => cb.value === categoriaUrl);
+                    
+                    if (checkboxTarget) {
+                        checkboxTarget.checked = true; // Marcamos el checkbox
+
+                        // (Opcional) Abrimos el menú desplegable para que el usuario vea el check
+                        const detailsParent = checkboxTarget.closest('details');
+                        if (detailsParent) {
+                            detailsParent.open = true;
+                        }
+                    }
+                }
+                // ==========================================
+                // 🛑 FIN DEL NUEVO CÓDIGO
+                // ==========================================
+
                 actualizarContadores();
                 aplicarFiltrosYOrden();
             })
