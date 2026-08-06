@@ -1,9 +1,9 @@
 // ─── VARIABLES GLOBALES ──────────────────────────────
 // Creamos una variable para guardar el catálogo entero cuando se cargue el JSON
-let productosGlobal = []; 
+let productosGlobal = [];
 
 // ─── 1. LEER EL ID DE LA URL ─────────────────────────
-const params     = new URLSearchParams(window.location.search);
+const params = new URLSearchParams(window.location.search);
 const productoId = Number(params.get("id"));
 
 
@@ -15,8 +15,8 @@ fetch("data/productos.json")
     })
     .then(productos => {
         // Guardamos los productos en la variable global para que el botón de agregar los encuentre
-        productosGlobal = productos; 
-        
+        productosGlobal = productos;
+
         const producto = productos.find(p => p.id === productoId);
 
         if (!producto) {
@@ -63,11 +63,15 @@ function renderizarProducto(p) {
     const thumbsContainer = document.querySelector(".gallery-thumbs");
     if (thumbsContainer) {
         thumbsContainer.innerHTML = p.imagenes.map((src, i) => `
-            <div class="thumb ${i === 0 ? "active" : ""}"
-                 onclick="changeImage(this, '${src}')">
-                <img src="${src}" alt="Vista ${i + 1} de ${p.nombre}">
-            </div>
-        `).join("");
+    <div class="thumb ${i === 0 ? "active" : ""}"
+         onclick="changeImage(this, '${src}')">
+        <img 
+            src="${src}" 
+            alt="Vista ${i + 1} de ${p.nombre}"
+            loading="${i === 0 ? "eager" : "lazy"}"
+        >
+    </div>
+`).join("");
     }
 
     // ── Badge de marca y categoría
@@ -111,16 +115,7 @@ function renderizarProducto(p) {
         `).join("");
     }
 
-    // ── Botón de WhatsApp con mensaje dinámico
-    const btnWhatsapp = document.querySelector(".btn--whatsapp-sm");
-    if (btnWhatsapp) {
-        const mensaje = encodeURIComponent(
-            `Hola, estoy interesado en el producto: ${p.nombre} (S/ ${p.precio.toFixed(2)}). ¿Tienen stock disponible?`
-        );
-        btnWhatsapp.onclick = () => {
-            window.open(`https://wa.me/51917989472?text=${mensaje}`, "_blank");
-        };
-    }
+
 
     // ── Preparar el botón de Agregar al Carrito de esta página
     const btnAgregarCarrito = document.querySelector(".btn--outline-sm");
