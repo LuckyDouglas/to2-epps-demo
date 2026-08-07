@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="cPz3TMoGFLC2uqvguhNEEpUNPOxI_yOt9qr_FvpmAMM" />
 <title>To2EPPS | Venta de Equipos de Protección Personal (EPP) y Seguridad Industrial. LIMA PERÚ</title>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -33,7 +34,7 @@
 <header class="header">
   <div class="container header__inner">
     <a href="index.html" aria-label="Ir a la página de inicio de TO2 EPPS">
-      <img class="nav-logo" src="img/logo.png" alt="TO2 EPPS - Equipos de Protección Personal" width="180" loading="eager">
+      <img class="nav-logo" src="img/logo.webp" alt="TO2 EPPS - Equipos de Protección Personal" width="180" loading="eager">
     </a>
     <a href="#categorias" class="btn btn--yellow header__cat-btn">Categorías</a>
     <nav class="nav" id="main-nav">
@@ -67,8 +68,16 @@
 </header>
 <!-- ===== HERO ===== -->
 <section class="hero">
+  
+  <!-- 1. El Picture actúa como fondo -->
+  <picture class="hero__bg">
+    <!-- Para móviles (menos de 768px) carga la versión ligera -->
+    <source media="(max-width: 680px)" srcset="img/banner1_mobile.webp" type="image/webp">
+    <!-- Para PC carga la normal, con máxima prioridad -->
+    <img src="img/banner1.webp" alt="Equipos de Protección Personal" fetchpriority="high" loading="eager">
+  </picture>
   <div class="container hero__inner">
-    <div class="hero__content">
+    <div>
       <h1>VENTA DE EPPS EN LIMA, <span class="hl">SEGURIDAD PARA TU EQUIPO</span></h1>
       <p class="hero__subtitle">Empresas • Industrias • Trabajadores</p>
 
@@ -76,18 +85,15 @@
         <a href="Tienda.html" class="btn btn--yellow">Ver catálogo</a>
       </div>
     </div>
+  </div>
+</section>
 
     <div class="hero__badge">
       <span class="hero__badge-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#96d997" stroke-width="4.125" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-check-big-icon lucide-square-check-big"><path d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"/><path d="m9 11 3 3L22 4"/></svg>
       </span>
-
         <strong class="hero__badge-text">TU SEGURIDAD ES NUESTRA PRIORIDAD</strong>
-
-
     </div>
-  </div>
-</section>
 
 <!-- ===== CATEGORÍAS PRINCIPALES ===== -->
 <section class="section" id="categorias">
@@ -130,7 +136,7 @@
 
       <a href="Tienda.html?categoria=Zapato">
       <div class="category-card">
-        <div class="category-card__icon"><img src="img/botas-de-seguridad.png" alt="zapatos de seguridad"></div>
+        <div class="category-card__icon"><img src="img/botas-de-seguridad.webp" alt="zapatos de seguridad"></div>
         <h3>ZAPATOS DE<br>SEGURIDAD</h3>
         <p class="btn btn--dark-sm">Ver productos</p>
       </div>
@@ -138,7 +144,7 @@
       
       <a href="Tienda.html?categoria=Ropa">
       <div class="category-card">
-        <div class="category-card__icon"><img src="img/ropa-industrial.png" alt="Ropa industrial"></div>
+        <div class="category-card__icon"><img src="img/ropa-industrial.webp" alt="Ropa industrial"></div>
         <h3>ROPA<br>INDUSTRIAL</h3>
         <p class="btn btn--dark-sm">Ver productos</p>
       </div>
@@ -146,7 +152,7 @@
       
       <a href="Tienda.html?categoria=Auditiva">
       <div class="category-card">
-        <div class="category-card__icon"><img src="img/proteccion-de-oidos.png" alt="Protección de oidos"></div>
+        <div class="category-card__icon"><img src="img/proteccion-de-oidos.webp" alt="Protección de oidos"></div>
         <h3>PROTECCIÓN<br>AUDITIVA</h3>
         <p class="btn btn--dark-sm">Ver productos</p>
       </div>
@@ -263,7 +269,7 @@
 
     <div class="footer__col footer__brand">
       <a href="#" class="logo logo--footer">
-        <img src="img/logo.png" alt="TO2 EPPS - Equipos de Protección Personal" width="240">
+        <img src="img/logo.webp" alt="TO2 EPPS - Equipos de Protección Personal" width="240">
       </a>
       <p>Equipos de Protección Personal para cuidar lo más importante: tu vida y tu trabajo.</p>
     </div>
