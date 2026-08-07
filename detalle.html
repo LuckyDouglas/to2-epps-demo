@@ -88,7 +88,7 @@
                 <a href="index.html#nosotros" class="nav__link">Nosotros</a>
                 <a href="index.html#ubicacion" class="nav__link">Contacto</a>
             </nav>
-            <a href="#" class="quote-link">
+            <a href="miCarrito.html" class="quote-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="8" cy="21" r="1" />
@@ -106,12 +106,12 @@
         </div>
         <!-- Menú mobile desplegable -->
         <div class="mobile-nav" id="mobile-nav">
-            <a href="#" class="mobile-nav__link">Inicio</a>
-            <a href="#categorias" class="mobile-nav__link">Categorías</a>
+            <a href="miCarrito.html" class="mobile-nav__link">Inicio</a>
+            <a href="index.html#categorias" class="mobile-nav__link">Categorías</a>
             <a href="Tienda.html" class="mobile-nav__link nav__link--active"><strong>Tienda</strong>
-                <a href="#nosotros" class="mobile-nav__link">Nosotros</a>
-                <a href="#ubicacion" class="mobile-nav__link">Contacto</a>
-                <a href="#" class="mobile-nav__link mobile-nav__quote">
+                <a href="index.html#nosotros" class="mobile-nav__link">Nosotros</a>
+                <a href="index.html#ubicacion" class="mobile-nav__link">Contacto</a>
+                <a href="miCarrito.html" class="mobile-nav__link mobile-nav__quote">
                     🛒 Mi cotización <span class="quote-badge">0</span>
                 </a>
         </div>
@@ -215,6 +215,21 @@
         </table>
         </div>
     </section>
+
+    <!-- PRODUCTOS RELACIONADOS -->
+    <section class="related-products container">
+
+    <div class="section__header">
+      <h2 class="section__title section__title--left">PRODUCTOS RELACIONADOS</h2>
+      <a href="Tienda.html" class="see-all">Ver todos los productos →</a>
+    </div>
+    
+    <div id="contenedor-relacionados" class="product-grid">
+        <!-- JS inyectará los 4 productos aquí -->
+    </div>
+    </section>
+
+
 
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
@@ -374,7 +389,7 @@
                 </path>
             </g>
         </svg></a>
-    <a href="#" class="cart-float" aria-label="Ver mi cotización / carrito"> <svg viewBox="0 0 24 24" fill="none"
+    <a href="miCarrito.html" class="cart-float" aria-label="Ver mi cotización / carrito"> <svg viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="8" cy="21" r="1" />
             <circle cx="19" cy="21" r="1" />
@@ -406,9 +421,7 @@
                 <span id="cart-total">S/ 0.00</span>
             </div>
 
-            <button id="btn-view-cart" class="cart-btn cart-btn--black">Ver Carrito</button>
-            <button id="btn-continue-shopping" class="cart-btn cart-btn--outline">Seguir cotizando</button>
-            <!-- ID importante -->
+            <a href="miCarrito.html" id="btn-view-cart" class="cart-btn cart-btn--black">Ver Carrito</a>
             <button id="btn-whatsapp-cart" class="cart-btn cart-btn--red">Cotizar por WhatsApp</button>
         </div>
     </div>
