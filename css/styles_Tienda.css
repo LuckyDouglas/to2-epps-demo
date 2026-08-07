@@ -2,7 +2,7 @@
    HERO — Catálogo de productos
    ========================================================= */
 .shop-hero{
-  background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banner1.png");
+  background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banner1.webp");
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@
   content:"−";
 } 
 /* ---- Main column ---- */
-.shop__main{ min-width:0; }
+.shop__main{ min-height: 1600px; }
 
 .active-filters{
   display:flex;
