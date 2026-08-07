@@ -25,6 +25,9 @@ fetch("data/productos.json")
         }
 
         renderizarProducto(producto);
+        
+        // 👇 NUEVO: Llamamos a la función de relacionados pasándole los datos
+        cargarProductosRelacionados(productos, producto);
     })
     .catch(err => {
         console.error(err);
@@ -115,14 +118,10 @@ function renderizarProducto(p) {
         `).join("");
     }
 
-
-
     // ── Preparar el botón de Agregar al Carrito de esta página
     const btnAgregarCarrito = document.querySelector(".btn--outline-sm");
     if (btnAgregarCarrito) {
-        // Le inyectamos el ID del producto dinámicamente al botón
         btnAgregarCarrito.dataset.id = p.id;
-        // Le añadimos una clase para saber que es el botón principal y debe leer la cantidad
         btnAgregarCarrito.classList.add("btn-principal-detalle");
     }
 }
@@ -137,7 +136,7 @@ function changeImage(thumb, src) {
     thumb.classList.add("active");
 }
 
-// ─── 6. MOSTRAR ERROR SI NO EXISTE EL PRODUCTO ───────
+// ─── 5. MOSTRAR ERROR SI NO EXISTE EL PRODUCTO ───────
 function mostrarError(mensaje) {
     const section = document.querySelector(".product-detail-card");
     if (section) {
@@ -155,3 +154,106 @@ function mostrarError(mensaje) {
     }
 }
 
+// ====================================================================
+// 👇 NUEVAS FUNCIONES PARA LOS PRODUCTOS RELACIONADOS 👇
+// ====================================================================
+
+// ─── 6. CARGAR PRODUCTOS RELACIONADOS ────────────────
+function cargarProductosRelacionados(todosLosProductos, productoActual) {
+    const contenedorRelacionados = document.getElementById("contenedor-relacionados");
+    if (!contenedorRelacionados) return;
+
+    // Filtrar por misma categoría, excluyendo el producto que estamos viendo
+    const productosMismaCategoria = todosLosProductos.filter(p => 
+        p.categoria === productoActual.categoria && p.id !== productoActual.id
+    );
+
+    // Tomar solo 4 productos
+    const productosMostrar = productosMismaCategoria.slice(0, 4);
+
+    // Si no hay productos relacionados, podríamos ocultar la sección entera
+    if (productosMostrar.length === 0) {
+        contenedorRelacionados.parentElement.style.display = "none";
+        return;
+    }
+
+    // Generar e inyectar el HTML
+    let html = "";
+    productosMostrar.forEach((producto, index) => {
+        html += crearProductoHTML(producto, index);
+    });
+
+    contenedorRelacionados.innerHTML = html;
+}
+
+// ─── 7. TEMPLATE HTML DEL PRODUCTO (Tarjeta) ─────────
+function crearProductoHTML(producto, index) {
+    const urlDetalle = `${window.location.origin}/detalle.html?id=${producto.id}`;
+    const loading = index < 4 ? "eager" : "lazy";
+
+    return `
+        <div class="product-card">
+
+            <a 
+                href="detalle.html?id=${producto.id}" 
+                class="product-card__cover-link" 
+                aria-label="Ver detalle de ${producto.nombre}"
+            ></a>
+
+            <div class="product-card__image">
+                <img
+                    src="${producto.imagen}"
+                    alt="${producto.nombre}"
+                    loading="${loading}"
+                >
+            </div>
+
+            <h3>${producto.nombre}</h3>
+
+            <p class="price">
+                S/ ${producto.precio.toFixed(2)}
+                <span>*</span>
+            </p>
+
+            <p class="price-note">
+                * Precio unitario
+            </p>
+
+            <div class="product-card__actions">
+
+                <button 
+                    type="button"
+                    class="btn btn--outline-sm"
+                    data-id="${producto.id}"
+                >
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="16" 
+                        height="16" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="3" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round"
+                    >
+                        <circle cx="8" cy="21" r="1"/>
+                        <circle cx="19" cy="21" r="1"/>
+                        <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+                    </svg> 
+                    Agregar
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn--whatsapp-sm"
+                    data-nombre="${producto.nombre}"
+                    data-url="${urlDetalle}"
+                >
+                    ☎ Cotizar
+                </button>
+
+            </div>
+        </div>
+    `;
+}

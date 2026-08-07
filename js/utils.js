@@ -1,3 +1,18 @@
+    // ==========================================
+    // FUNCIONES DEL CARRITO
+    // ==========================================
+
+    function obtenerCarrito() {
+        const carrito = localStorage.getItem("carrito");
+        return carrito ? JSON.parse(carrito) : [];
+    }
+
+    function guardarCarrito(carrito) {
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+        actualizarBadge();
+        renderizarCarrito();
+    }
+
 function crearProductoHTML(producto, index) {
     const urlDetalle = `${window.location.origin}/detalle.html?id=${producto.id}`;
 
@@ -72,7 +87,7 @@ function crearProductoHTML(producto, index) {
         </div>
     `;
 }
-document.addEventListener("DOMContentLoaded", () => {
+
 
     // ==========================================
     // MENÚ HAMBURGUESA
@@ -173,20 +188,7 @@ function animarParticulaAlCarrito(botonOrigen, cantidad = 1) {
         setTimeout(() => carritoFloat.classList.remove('bounce'), 500);
     }, 600);
 }
-    // ==========================================
-    // FUNCIONES DEL CARRITO
-    // ==========================================
 
-    function obtenerCarrito() {
-        const carrito = localStorage.getItem("carrito");
-        return carrito ? JSON.parse(carrito) : [];
-    }
-
-    function guardarCarrito(carrito) {
-        localStorage.setItem("carrito", JSON.stringify(carrito));
-        actualizarBadge();
-        renderizarCarrito();
-    }
 
 
 // ==========================================
@@ -309,23 +311,29 @@ document.addEventListener("click", (e) => {
 });
 
 
+// ==========================================
+    // CAMBIAR CANTIDAD EN EL CARRITO (UNIFICADO)
     // ==========================================
-    // CAMBIAR CANTIDAD EN EL CARRITO
-    // ==========================================
-
     window.cambiarCantidad = function(id, nuevaCantidad) {
+        let cantidad = Number(nuevaCantidad);
+
+        // Si el usuario escribe letras o deja el campo vacío, se asigna 1
+        if (isNaN(cantidad)) {
+            cantidad = 1;
+        }
+
         let carrito = obtenerCarrito();
         const producto = carrito.find(p => p.id === Number(id));
 
         if (!producto) return;
 
-        if (nuevaCantidad <= 0) {
+        // Si al restar la cantidad llega a 0 o menos, elimina el producto
+        if (cantidad <= 0) {
             eliminarDelCarrito(id);
         } else {
-            producto.cantidad = nuevaCantidad;
+            producto.cantidad = cantidad;
             guardarCarrito(carrito);
         }
-        
     };
 
 
@@ -341,75 +349,136 @@ document.addEventListener("click", (e) => {
 
 
 // ==========================================
-    // RENDERIZAR CARRITO
+    // RENDERIZAR CARRITO (PANEL LATERAL Y PÁGINA)
     // ==========================================
 
     function renderizarCarrito() {
         const carrito = obtenerCarrito();
+        
+        // Elementos del Panel Lateral (Tus IDs)
         const itemsContainer = document.getElementById("cart-items-container");
         const emptyState = document.getElementById("cart-empty-state");
         const totalSpan = document.getElementById("cart-total");
 
-        if (!itemsContainer || !emptyState || !totalSpan) {
-            return;
+        // Elementos de la Página Principal del Carrito
+        const pageItemsContainer = document.getElementById("page-cart-items");
+        const pageEmptyState = document.getElementById("page-cart-empty");
+
+        // Calculamos el total de unidades
+        const totalUnidades = carrito.reduce((sum, p) => sum + p.cantidad, 0);
+
+        // Actualizamos el contador del panel lateral
+        if (totalSpan) {
+            totalSpan.textContent = `${totalUnidades} ${totalUnidades === 1 ? 'unidad' : 'unidades'}`;
         }
 
-        if (carrito.length === 0) {
-            itemsContainer.style.display = "none";
-            emptyState.style.display = "flex";
-            totalSpan.textContent = "0 unidades"; // Cambiado a texto de unidades
-            return;
-        }
+        // ----------------------------------------------------
+        // A. RENDERIZAR PANEL LATERAL
+        // ----------------------------------------------------
+        if (itemsContainer && emptyState) {
+            if (carrito.length === 0) {
+                itemsContainer.style.display = "none";
+                emptyState.style.display = "flex";
+            } else {
+                itemsContainer.style.display = "block";
+                emptyState.style.display = "none";
 
-        itemsContainer.style.display = "block";
-        emptyState.style.display = "none";
+                let htmlPanel = "";
+                carrito.forEach(producto => {
+                    htmlPanel += `
+                        <div class="cart-item">
+                            <div class="cart-item__img">
+                                <img src="${producto.imagen}" alt="${producto.nombre}">
+                            </div>
 
-        let html = "";
-        let totalUnidades = 0; // Variable para sumar cantidades de productos
+                            <div class="cart-item__info">
+                                <p class="cart-item__name">${producto.nombre}</p>
 
-        carrito.forEach(producto => {
-            // Sumamos la cantidad de este producto al total de unidades
-            totalUnidades += producto.cantidad; 
+                                <div class="cart-item__controls">
+                                    <button class="qty-btn" onclick="cambiarCantidad(${producto.id}, ${producto.cantidad - 1})">-</button>
+                                    <input 
+                                        type="number" 
+                                        class="qty-input-cart" 
+                                        value="${producto.cantidad}" 
+                                        min="1"
+                                        onchange="cambiarCantidad(${producto.id}, this.value)"
+                                    >
+                                    <button class="qty-btn" onclick="cambiarCantidad(${producto.id}, ${producto.cantidad + 1})">+</button>
+                                </div>
+                            </div>
 
-            html += `
-                <div class="cart-item">
-                    <div class="cart-item__img">
-                        <img src="${producto.imagen}" alt="${producto.nombre}">
-                    </div>
-
-                    <div class="cart-item__info">
-                        <p class="cart-item__name">${producto.nombre}</p>
-
-                        <div class="cart-item__controls">
-                            <button class="qty-btn" onclick="cambiarCantidad(${producto.id}, ${producto.cantidad - 1})">-</button>
-                            <input 
-                                type="number" 
-                                class="qty-input-cart" 
-                                value="${producto.cantidad}" 
-                                min="1"
-                                onchange="cambiarCantidad(${producto.id}, this.value)"
-                            >
-                            <button class="qty-btn" onclick="cambiarCantidad(${producto.id}, ${producto.cantidad + 1})">+</button>
+                            <div class="cart-item__actions">
+                                <button
+                                    class="delete-btn"
+                                    onclick="eliminarDelCarrito(${producto.id})"
+                                >
+                                    🗑️
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    `;
+                });
+                itemsContainer.innerHTML = htmlPanel;
+            }
+        }
 
-                    <div class="cart-item__actions">
-                        <!-- Se eliminó el span del precio -->
-                        <button
-                            class="delete-btn"
-                            onclick="eliminarDelCarrito(${producto.id})"
-                        >
-                            🗑️
-                        </button>
-                    </div>
-                </div>
-            `;
-        });
+        // ----------------------------------------------------
+        // B. RENDERIZAR PÁGINA PRINCIPAL DEL CARRITO
+        // ----------------------------------------------------
+        if (pageItemsContainer) {
+            if (carrito.length === 0) {
+                pageItemsContainer.style.display = "none";
+                if (pageEmptyState) pageEmptyState.style.display = "block";
+            } else {
+                pageItemsContainer.style.display = "block";
+                if (pageEmptyState) pageEmptyState.style.display = "none";
 
-        itemsContainer.innerHTML = html;
-        
-        // Muestra el total de unidades (ej. "5 unidades" o "1 unidad")
-        totalSpan.textContent = `${totalUnidades} ${totalUnidades === 1 ? 'unidad' : 'unidades'}`;
+                let htmlPagina = "";
+                carrito.forEach(producto => {
+                    htmlPagina += `
+                        <article class="cart-item">
+                            <button 
+                                class="btn-delete" 
+                                aria-label="Eliminar producto"
+                                onclick="eliminarDelCarrito(${producto.id})"
+                            >
+                                🗑️
+                            </button>
+
+                            <div class="item-image">
+                                <img src="${producto.imagen}" alt="${producto.nombre}">
+                            </div>
+
+                            <h3 class="item-title">${producto.nombre}</h3>
+
+                            <div class="item-quantity">
+                                <span class="qty-label">CANTIDAD</span>
+                                <div class="qty-controls">
+                                    <button 
+                                        class="btn-minus" 
+                                        type="button"
+                                        onclick="cambiarCantidad(${producto.id}, ${producto.cantidad - 1})"
+                                    >−</button>
+                                    <input 
+                                        type="number" 
+                                        class="qty-input" 
+                                        value="${producto.cantidad}" 
+                                        min="1"
+                                        onchange="cambiarCantidad(${producto.id}, this.value)"
+                                    >
+                                    <button 
+                                        class="btn-plus" 
+                                        type="button"
+                                        onclick="cambiarCantidad(${producto.id}, ${producto.cantidad + 1})"
+                                    >+</button>
+                                </div>
+                            </div>
+                        </article>
+                    `;
+                });
+                pageItemsContainer.innerHTML = htmlPagina;
+            }
+        }
     }
 
 // ==========================================
@@ -435,25 +504,7 @@ document.addEventListener("click", (e) => {
             input.value = cantidadActual + 1;
         }
     });
-    // ==========================================
-    // VALIDAR (+ / - Y ESCRITURA MANUAL)
-    // ==========================================
-    window.cambiarCantidad = function(id, nuevaCantidad) {
-    let cantidad = Number(nuevaCantidad);
-    
-    // Si escribe un texto vacío, 0 o un número negativo, se restablece a 1
-    if (isNaN(cantidad) || cantidad <= 0) {
-        cantidad = 1;
-    }
 
-    let carrito = obtenerCarrito();
-    const producto = carrito.find(p => p.id === Number(id));
-
-    if (!producto) return;
-
-    producto.cantidad = cantidad;
-    guardarCarrito(carrito);
-};
     // ==========================================
     // BADGE DEL CARRITO
     // ==========================================
@@ -462,9 +513,10 @@ document.addEventListener("click", (e) => {
         const carrito = obtenerCarrito();
         const totalItems = carrito.reduce((total, producto) => total + producto.cantidad, 0);
         const badge = document.querySelector(".cart-float__badge");
+        const badgeNav = document.querySelector(".quote-badge");
 
         if (!badge) return;
-
+        badgeNav.textContent = totalItems;
         badge.textContent = totalItems;
         badge.style.display = totalItems > 0 ? "flex" : "none";
     }
@@ -477,7 +529,7 @@ document.addEventListener("click", (e) => {
 const panel = document.getElementById("cart-panel");
 const openBtn = document.querySelector(".cart-float");
 const closeBtn = document.getElementById("cart-close-btn");
-const continueBtn = document.getElementById("btn-continue-shopping");
+
 
 if (openBtn && panel) {
     openBtn.addEventListener("click", (e) => {
@@ -494,11 +546,6 @@ if (closeBtn && panel) {
     });
 }
 
-if (continueBtn && panel) {
-    continueBtn.addEventListener("click", () => {
-        panel.style.transform = "translateX(100%)";
-    });
-}
 
 // 🌟 Cerrar al hacer clic fuera del panel
 document.addEventListener("click", (e) => {
@@ -537,7 +584,7 @@ document.addEventListener("click", (e) => {
             return;
         }
 
-        let mensaje = "Hola, quiero cotizar los siguientes productos:\n\n";
+        let mensaje = "Hola, quiero cotizar mi carrito:\n\n";
         let totalUnidades = 0;
 
         carrito.forEach(producto => {
@@ -559,4 +606,3 @@ document.addEventListener("click", (e) => {
     actualizarBadge();
     renderizarCarrito();
 
-});
