@@ -374,7 +374,6 @@
   .hero h1 { font-size: 1.8rem; line-height: 1.25; margin-bottom: 16px; }
   .hero__subtitle { font-size: 0.95rem; margin: 0 auto 24px auto; }
   .hero__cta { justify-content: center; }
-  .hero__cta .btn { width: 100%; max-width: 280px; }
   .hero__badge { display: none; } 
 
   /* Secciones */

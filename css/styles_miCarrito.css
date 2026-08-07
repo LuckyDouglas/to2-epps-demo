@@ -1,0 +1,374 @@
+/* Contenedor Principal de la Página */
+.quote-page {
+  max-width: 1000px;
+  margin: 32px auto 60px auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- Banner Informativo Superior --- */
+.quote-banner-info {
+  background: var(--navy-dark);
+  color: var(--white);
+  padding: 16px 24px;
+  border-radius: var(--radius-main);
+  border-left: 6px solid var(--yellow);
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+}
+
+/* --- Tarjetas Modulares (Pasos 1, 2 y 3) --- */
+.quote-card {
+  background: var(--white);
+  border-radius: var(--radius-main);
+  padding: 28px 32px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-line);
+  border-left: 5px solid var(--yellow);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.step-number {
+  background: var(--yellow);
+  color: var(--white);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.card-header h2 {
+  font-size: 1.35rem;
+  color: var(--navy-dark);
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+}
+
+/* --- Formulario Paso 1 --- */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group.full-width {
+  grid-column: span 2;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.required {
+  color: var(--yellow);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--gray-line);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  outline: none;
+  background: var(--white);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--navy);
+  box-shadow: 0 0 0 3px rgba(11, 31, 75, 0.08);
+}
+
+/* --- Lista de Productos Paso 2 --- */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  align-items: center;
+  padding: 18px 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.btn-delete:hover {
+  transform: scale(1.15);
+}
+
+
+.item-image {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--gray-line);
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  flex-shrink: 0;
+}
+
+.item-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  flex: 1;
+}
+
+/* Controles de Cantidad */
+.item-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.qty-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  background: var(--navy-dark);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.qty-controls button {
+  background: var(--navy-dark);
+  color: var(--white);
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+  border-radius: 4px;
+}
+
+.qty-controls button:hover {
+  background: var(--navy-light);
+}
+
+.qty-input {
+  width: 46px;
+  height: 30px;
+  background: var(--white);
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  margin: 0 2px;
+  border-radius: 3px;
+}
+
+/* --- Paso 3 y Botones de Acción --- */
+.card-header.mini-header h2 {
+  font-size: 0.88rem;
+  letter-spacing: 0.5px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.primary-actions, 
+.secondary-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-whatsapp {
+  background: var(--green);
+  color: var(--white);
+}
+.btn-whatsapp:hover {
+  background: var(--green-dark);
+}
+
+.btn-email {
+  background: var(--navy-dark);
+  color: var(--white);
+}
+.btn-email:hover {
+  background: var(--navy-light);
+}
+
+.btn-outline {
+  background: var(--white);
+  color: var(--navy-dark);
+  border: 1.5px solid var(--gray-line);
+}
+.btn-outline:hover {
+  border-color: var(--navy-dark);
+}
+
+/* --- Banner Inferior de Atención --- */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.support-banner {
+  /* Creamos un degradado sutil entre tu naranja y un tono un poco más vivo */
+  background: linear-gradient(135deg, #e96f24, #f39c12, #e96f24);
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease infinite;
+  color: var(--white);
+  padding: 16px 28px;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow);
+}
+
+.support-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.support-content p {
+  font-size: 1.05rem;
+}
+
+@keyframes pulseWsp {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(46, 159, 94, 0.4);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(46, 159, 94, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(46, 159, 94, 0);
+  }
+}
+
+.btn-support {
+  background: var(--green);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  /* Aplicamos la animación infinita */
+  animation: pulseWsp 2s infinite ease-in-out;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn-support:hover {
+  background: var(--green-dark);
+  /* Pausamos el pulso al pasar el mouse para que destaque el hover manual */
+  animation-play-state: paused; 
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* ============ ADAPTACIÓN RESPONSIVA ============ */
+@media (max-width: 868px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primary-actions, 
+  .secondary-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .support-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .quote-card {
+    padding: 20px 18px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full-width {
+    grid-column: span 1;
+  }
+
+  article {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .item-title {
+    width: 100%;
+    order: 3;
+  }
+
+  .item-quantity {
+    order: 4;
+    margin-left: auto;
+  }
+}

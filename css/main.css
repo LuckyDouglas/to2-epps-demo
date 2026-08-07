@@ -86,8 +86,50 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .btn:hover { transform: translateY(-2px); }
 .btn:active { transform: scale(0.99); }
 
-.btn--yellow { background: var(--yellow); color: var(--navy-dark); }
-.btn--yellow:hover { background: var(--yellow-dark); }
+.btn--yellow {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 700;
+    text-transform: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 170px;
+    
+    /* Clave: Posición relativa para que la flecha se ubique respecto a este botón */
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Centra el texto exactamente al medio */
+    
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn--yellow:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.5);
+}
+
+.btn--yellow:active {
+    transform: translateY(0);
+}
+
+/* Animación y posicionamiento de la flecha */
+@keyframes arrow-bounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.btn--yellow .btn-arrow-anim {
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    animation: arrow-bounce 1.5s infinite ease-in-out;
+}
 
 .btn--whatsapp-sm {
   background: var(--green);
@@ -259,13 +301,12 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   font-size: 1rem;
   font-weight: bold;
 }
-.cart-panel__body { flex: 1; overflow-y: auto; padding: 20px; }
+.cart-panel__body { flex: 1; overflow-y: auto; padding: 0 15px; }
 .cart-item {
   display: flex;
   gap: 15px;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #e5e7eb;
+  padding:15px 0;
+  border-bottom: 1px solid var(--gray-line);
 }
 .cart-item__img img {
   width: 80px; height: 80px; object-fit: contain;
