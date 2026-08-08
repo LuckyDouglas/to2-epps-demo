@@ -135,8 +135,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   background: var(--green);
   color: var(--white);
   font-size: clamp(0.8rem, 1vw + 0.5rem, 0.95rem);
-  padding: clamp(8px, 1vh, 12px) clamp(10px, 1.2vw, 20px);
-  margin-top: clamp(8px, 1vh, 12px);
+  padding: clamp(14px, 1.8vh, 18px) clamp(16px, 2vw, 26px);
+  margin-top: clamp(14px, 1.5vh, 20px);
 }
 .btn--whatsapp-sm:hover { background: var(--green-dark); }
 
@@ -144,7 +144,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   color: var(--navy);
   border: 1.5px solid var(--gray-line);
   font-size: 0.8rem;
-  padding: clamp(8px, 1vh, 12px) clamp(8px, 1vw, 16px);
+  font-size: clamp(0.8rem, 1vw + 0.5rem, 0.95rem);
+  padding: clamp(14px, 1.8vh, 18px) clamp(16px, 2vw, 26px);
 }
 .btn--outline-sm:hover { border-color: var(--navy); }
 
@@ -342,6 +343,75 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .cart-btn--black { background: #0f172a; color: #ffffff; }
 .cart-btn--outline { background: #ffffff; border: 1px solid #0f172a; }
 .cart-btn--red { background: var(--whatsapp); color: #ffffff; margin-bottom: 0; } /* Ajustado color whatsapp unificado */
+
+/* ============ PRODUCTS ============ */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  justify-items: center;
+  justify-content: center; 
+
+}
+.product-card {
+  position: relative;
+  width: 100%;
+  border: 2px solid var(--gray-line);
+  border-radius: var(--radius);
+  padding: 18px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background-color: white;
+}
+/* El enlace transparente que cubre toda la tarjeta */
+.product-card__cover-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Se coloca sobre la tarjeta */
+}
+.product-card:hover {
+  box-shadow: 0 10px 24px rgba(15,36,71,.08);
+  transform: translateY(-3px);
+}
+.product-card__image {
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  border: 1.5px dashed var(--gray-line);
+}
+
+.product-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-card h3 {
+  font-size: clamp(0.9rem, 1.2vw, 1.15rem);
+  color: var(--text-dark);
+  line-height: 1.3;
+  min-height: calc(1.3em * 2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.price {
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.price span { font-weight: 400; font-size: 0.8rem; color: var(--text-muted); }
+.price-note {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+.product-card__actions { margin-top: auto;  position: relative; z-index: 2; }
+.product-card__actions .btn { justify-content: center; width: 100%; align-items: center; }
 
 /* ============ FOOTER (Estilo Inicio/Detalle) ============ */
 .footer {
