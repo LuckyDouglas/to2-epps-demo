@@ -301,7 +301,7 @@ document.addEventListener("click", (e) => {
     const nombre = boton.dataset.nombre || "Producto";
     const urlProducto = boton.dataset.url || window.location.href;
 
-    const telefono = "51917989472";
+    const telefono = "51978689577";
     const mensaje = encodeURIComponent(
         `Hola, estoy interesado en el producto: ${nombre}.\n` +
         `Enlace del producto: ${urlProducto}\n` +
@@ -596,7 +596,7 @@ document.addEventListener("click", (e) => {
 
         // Se agrega el total de unidades solicitadas al final del mensaje
         mensaje += `\nTotal a cotizar: ${totalUnidades} productos`;
-        const url = `https://wa.me/51917989472?text=${encodeURIComponent(mensaje)}`; // Asegúrate de colocar bien tu número
+        const url = `https://wa.me/51978689577?text=${encodeURIComponent(mensaje)}`; // Asegúrate de colocar bien tu número
         window.open(url, "_blank");
     }
 

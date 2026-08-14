@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         `Ref. cotización #${refCotizacion}`;
 
         // 6. Enviar a la API de WhatsApp
-        const numeroWhatsApp = "51917989472"; // Reemplaza con tu número si es diferente
+        const numeroWhatsApp = "51978689577"; // Reemplaza con tu número si es diferente
         const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
         
         window.open(url, "_blank");
