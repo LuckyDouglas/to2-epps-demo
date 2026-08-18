@@ -146,7 +146,7 @@
                 endPage =
                     Math.min(
                         totalPages,
-                        startPage + 4
+                        startPage + 2
                     );
 
             } else if (endPage === totalPages) {
