@@ -345,73 +345,153 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .cart-btn--red { background: var(--whatsapp); color: #ffffff; margin-bottom: 0; } /* Ajustado color whatsapp unificado */
 
 /* ============ PRODUCTS ============ */
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
-  justify-items: center;
-  justify-content: center; 
 
+/* Grid de productos */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    justify-items: center;
+    justify-content: center;
 }
+
+
+/* Tarjeta del producto */
 .product-card {
-  position: relative;
-  width: 100%;
-  border: 2px solid var(--gray-line);
-  border-radius: var(--radius);
-  padding: 18px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-  background-color: white;
+    position: relative;
+    width: 100%;
+    padding: 18px;
+
+    border: 2px solid var(--gray-line);
+    border-radius: var(--radius);
+
+    background-color: white;
+
+    transition:
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
-/* El enlace transparente que cubre toda la tarjeta */
+
+
+/* Enlace transparente que cubre toda la tarjeta */
 .product-card__cover-link {
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
     height: 100%;
-    z-index: 1; /* Se coloca sobre la tarjeta */
-}
-.product-card:hover {
-  box-shadow: 0 10px 24px rgba(15,36,71,.08);
-  transform: translateY(-3px);
-}
-.product-card__image {
-  overflow: hidden;
-  border-radius: 8px;
-  margin-bottom: 14px;
-  border: 1.5px dashed var(--gray-line);
+
+    z-index: 1;
 }
 
+
+/* Efecto hover de la tarjeta */
+.product-card:hover {
+    box-shadow: 0 10px 24px rgba(15, 36, 71, 0.08);
+    transform: translateY(-3px);
+}
+
+
+/* Contenedor de imagen */
+.product-card__image {
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    aspect-ratio: 1 / 1;
+    margin-bottom: 14px;
+
+    border: 1.5px dashed var(--gray-line);
+    border-radius: 8px;
+
+    background-color: #fafafa;
+}
+
+
+/* Marca de agua */
+.product-card__image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/img/marca-de-agua.webp');
+    background-size: 150%;
+    opacity: 0.3;
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+/* Imagen principal del producto */
 .product-card__image img {
+    position: relative;
     width: 100%;
     height: 100%;
     object-fit: contain;
+    z-index: 1;
 }
+
+
+/* Nombre del producto */
 .product-card h3 {
-  font-size: clamp(0.9rem, 1.2vw, 1.15rem);
-  color: var(--text-dark);
-  line-height: 1.3;
-  min-height: calc(1.3em * 2);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  margin-bottom: 8px;
+    display: -webkit-box;
+    min-height: calc(1.3em * 2);
+    margin-bottom: 8px;
+    overflow: hidden;
+    color: var(--text-dark);
+    font-size: clamp(0.9rem, 1.2vw, 1.15rem);
+    line-height: 1.3;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
 }
+
+
+/* Precio */
 .price {
-  color: var(--navy);
-  font-weight: 700;
-  font-size: 1.1rem;
+    color: var(--navy);
+    font-size: 1.1rem;
+    font-weight: 700;
 }
-.price span { font-weight: 400; font-size: 0.8rem; color: var(--text-muted); }
+
+
+/* Unidad / información adicional del precio */
+.price span {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+/* Nota del precio */
 .price-note {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-bottom: 14px;
+    margin-bottom: 14px;
+
+    color: var(--text-muted);
+    font-size: 0.72rem;
 }
-.product-card__actions { margin-top: auto;  position: relative; z-index: 2; }
-.product-card__actions .btn { justify-content: center; width: 100%; align-items: center; }
+
+
+/* Acciones de la tarjeta */
+.product-card__actions {
+    position: relative;
+
+    margin-top: auto;
+
+    z-index: 2;
+}
+
+
+/* Botón de las acciones */
+.product-card__actions .btn {
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
 
 /* ============ FOOTER (Estilo Inicio/Detalle) ============ */
 .footer {
@@ -540,6 +620,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   .cart-panel { width: 300px; }
   .cart-panel__subtotal { display: none; }
 }
+
 
 
 

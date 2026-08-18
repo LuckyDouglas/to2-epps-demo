@@ -2,7 +2,7 @@
    HERO —  productos
    ========================================================= */
 .shop-hero {
-    background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banner1.webp");
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banners/banner1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,6 +76,7 @@
 
 .gallery-thumbs {
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
     margin-top: 14px;
 }
