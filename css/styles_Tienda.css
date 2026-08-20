@@ -272,7 +272,9 @@
      
   .sort-select { padding: 8px 25px 8px 12px; }
   .filter-dropdown summary { margin-bottom: 0; }
+  .pagination{ gap: 0; flex-wrap: wrap; }
 }
+ 
 
 @media (max-width: 360px){
   .products-grid { grid-template-columns: 1fr; }
@@ -283,7 +285,5 @@
     margin-bottom: 14px;
   }
   .price { margin: 2px; }
-  .pagination{
-    gap: 0;
-  }
+  
 }
