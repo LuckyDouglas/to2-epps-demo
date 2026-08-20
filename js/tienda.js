@@ -128,14 +128,14 @@
         let startPage =
             Math.max(
                 1,
-                currentPage - 2
+                currentPage - 1
             );
 
 
         let endPage =
             Math.min(
                 totalPages,
-                currentPage + 2
+                currentPage + 1
             );
 
 
@@ -154,7 +154,7 @@
                 startPage =
                     Math.max(
                         1,
-                        endPage - 4
+                        endPage - 2 
                     );
             }
         }
