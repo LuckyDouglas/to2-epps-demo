@@ -93,7 +93,7 @@
   padding:9px 14px;
   margin-bottom:24px;
 }
-.search-box svg{ width:16px; height:16px; color:var(--ink-soft); flex-shrink:0; }
+.search-box svg{ width:16px; height:16px; flex-shrink:0; }
 .search-box input{
   border:none;
   outline:none;
@@ -116,7 +116,6 @@
   font-weight:700;
   text-transform:uppercase;
   letter-spacing:.05em;
-  color:var(--ink-soft);
   margin:14px 0 10px;
 }
 .checkbox{
@@ -131,11 +130,10 @@
 }
 .checkbox input[type="checkbox"]{
   width:17px; height:17px;
-  accent-color:var(--blue-accent);
   flex-shrink:0;
 }
 .checkbox__label{ display:flex; align-items:center; gap:10px; }
-.checkbox__count{ color:var(--ink-soft); font-size:.82rem; }
+.checkbox__count{ font-size:.82rem; }
 
 .filter-dropdown summary{
   list-style:none;
@@ -146,7 +144,6 @@
   justify-content:space-between;
   align-items:center;
   margin-bottom:12px;
-  border-bottom: 1px solid var(--line);
   padding: 2px 10px;
 }
 
@@ -177,7 +174,6 @@
 .active-filters__label{
   font-size:.85rem;
   font-weight:700;
-  color:var(--ink-soft);
 }
 .filter-chip{
   display:inline-flex;
@@ -191,8 +187,8 @@
   font-weight:600;
   color:var(--ink);
 }
-.filter-chip svg{ width:12px; height:12px; color:var(--ink-soft); }
-.filter-chip:hover{ border-color:var(--blue-accent); }
+.filter-chip svg{ width:12px; height:12px;}
+.filter-chip:hover{ border-color:var(--navy-light); }
 
 .shop__toolbar{
   display:flex;
@@ -210,19 +206,19 @@
 .sort-select{
   appearance:none;
   border:1px solid var(--gray-line);
-  border-radius:var(--radius-sm);
+  border-radius:var(--radius);
   background:var(--white) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%2357626f' stroke-width='3'><path d='M6 9l6 6 6-6'/></svg>") no-repeat right 10px center;
   padding:8px 30px 8px 12px;
   font-size:.85rem;
   font-weight:600;
   color:var(--ink);
+  cursor:pointer;
 }
 
 /* ============ PRODUCTS ============ */
 .products-grid {
     min-height: 600px; /* aprox. el alto que ocupará con productos */
 }
-.product-card__image{ aspect-ratio: 1/1;}
 
 /* ---- Pagination ---- */
 .pagination{
@@ -237,7 +233,7 @@
   height:36px;
   padding:0 8px;
   border:1px solid var(--gray-line);
-  border-radius:var(--radius-sm);
+  border-radius:var(--radius);
   background:var(--white);
   font-weight:600;
   font-size:.88rem;
@@ -246,7 +242,7 @@
   align-items:center;
   justify-content:center;
 }
-.pagination__btn:hover{ border-color:var(--blue-accent); }
+.pagination__btn:hover{ border-color:var(--navy-light); }
 .pagination__btn--active{
   background:var(--navy-900);
   border-color:var(--navy-900);
@@ -258,11 +254,6 @@
 /* =========================================================
    RESPONSIVE
    ========================================================= */
-@media (max-width: 1100px){
-  .products-grid { grid-template-columns: repeat(3, 1fr); gap: 12px;}
-  /* .footer__grid se movió a main.css */
-}
-
 @media (max-width: 960px){
   /* Topbar, Header y Menú se movieron a main.css */
   .shop { padding: 15px 0 64px; }
@@ -293,7 +284,6 @@
 @media (max-width: 680px){
   /* .container, topbar, header, footer, botones flotantes y carrito se movieron a main.css */
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .product-card { padding: 10px; }
   
   .shop__toolbar { flex-wrap: wrap; padding: 5px; }
   .shop__sidebar {

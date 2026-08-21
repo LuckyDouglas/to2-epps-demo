@@ -10,10 +10,10 @@
   --navy: #0b1f4b;
   --navy-dark: #081536;
   --navy-light: #12295f;
-  --navy-900: #0a1a38; /* Agregado para el badge del carrito */
+  --navy-900: #0a1a38;
   --yellow: #f5b400;
   --yellow-dark: #e0a300;
-  --green: #2e9f5e; /* Corregido (antes ----green) */
+  --green: #2e9f5e;
   --green-dark: #25824c;
   --whatsapp: #25d366; 
 
@@ -26,25 +26,17 @@
 
   /* Tipografía */
   --font-display: 'Poppins', sans-serif;
-  --font-body: 'Inter', sans-serif;
 
   /* Utilidades */
   --radius: 10px;
   --shadow: 0 4px 16px rgba(11, 31, 75, 0.08);
 
-  /* 
-   * Variables de detalle.css unificadas al sistema principal 
-   * (Mapeadas para que detalle.html no se rompa) 
-   */
-  --color-primary: var(--navy-dark);
-  --color-yellow: var(--yellow);
-  --color-orange: var(--orange);
-  --color-whatsapp: var(--whatsapp);
-  --color-bg: var(--gray-bg);
-  --color-card: var(--white);
-  --color-text: var(--text-dark);
-  --color-muted: var(--text-muted);
-  --color-border: var(--gray-line);
+  /* Carrito */
+  --carrito-black:#0f172a;
+  --carrito-red:#dc2626;
+
+
+
   --radius-main: 12px;
 }
 
@@ -53,7 +45,7 @@
 html { scroll-behavior: smooth; }
 body { 
   background-color: var(--gray-bg); 
-  font-family: var(--font-body); 
+  font-family: var(--font-display); 
   color: var(--ink); 
   line-height: 1.5;   
   -webkit-font-smoothing: antialiased;
@@ -87,9 +79,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .btn:active { transform: scale(0.99); }
 
 .btn--yellow {
-    background-color: #ffc107;
+    background-color: var(--yellow);
     color: #000;
-    font-weight: 700;
     text-transform: none;
     padding: 12px 24px;
     border-radius: 8px;
@@ -128,7 +119,6 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .btn--outline-sm {
   color: var(--navy);
   border: 1.5px solid var(--gray-line);
-  font-size: 0.8rem;
   font-size: clamp(0.8rem, 1vw + 0.5rem, 0.95rem);
   padding: clamp(14px, 1.8vh, 18px) clamp(16px, 2vw, 26px);
 }
@@ -137,7 +127,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .btn--dark-sm {
   background: var(--navy);
   color: var(--white);
-  font-size: 0.8rem;
+  font-size: clamp(0.8rem, 1vw + 0.5rem, 0.95rem);
 }
 .btn--dark-sm:hover { background: var(--navy-light); }
 
@@ -267,15 +257,15 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   flex-direction: column;
 }
 .cart-panel__header {
-  background: #0f172a;
+  background: var(--carrito-black);
   color: #fff;
   padding: 18px 20px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 3px solid #dc2626;
+  border-bottom: 3px solid var(--carrito-red);
 }
 .cart-panel__header h2 { font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
-.cart-panel__header .dot { width: 10px; height: 10px; background: #dc2626; border-radius: 50%; }
+.cart-panel__header .dot { width: 10px; height: 10px; background: var(--carrito-red); border-radius: 50%; }
 .cart-panel__close {
   background: rgba(255,255,255,0.1);
   border: none;
@@ -302,19 +292,19 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .cart-item__name { font-weight: 600; font-size: 0.9rem; color: #1e293b; margin: 0 0 10px 0; }
 .cart-item__controls { display: flex; gap: 8px; }
 .qty-btn {
-  background: #dc2626; border: none; width: 28px; height: 28px;
+  background: var(--carrito-red); border: none; width: 28px; height: 28px;
   font-size: 1.2rem; border-radius: 5px; font-weight: bold;
   color: white; transition: background 0.2s;
 }
 .qty-btn:hover { background: #e2e8f0; color: #081536; }
 .qty-input-cart { width: 70px; text-align: center; font-weight: 600; }
 .cart-item__actions { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; }
-.cart-item__price { font-weight: 700; color: #0f172a; font-size: 0.95rem; }
+.cart-item__price { font-weight: 700; color: var(--carrito-black); font-size: 0.95rem; }
 .delete-btn {
   background: transparent; border: none; color: #64748b;
   font-size: 1.2rem; padding: 5px;
 }
-.delete-btn:hover { color: #dc2626; }
+.delete-btn:hover { color: var(--carrito-red); }
 .cart-panel__empty { display: flex; flex-direction: column; justify-content: center; height: 100%; text-align: center; }
 .cart-panel__empty p { font-size: 1.2rem; color: #334155; margin-bottom: 15px; }
 .cart-empty__link { font-weight: 600; text-decoration: underline; }
@@ -325,8 +315,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   width: 100%; padding: 14px; border-radius: 10px;
   font-weight: 600; text-align: center; margin-bottom: 10px;
 }
-.cart-btn--black { background: #0f172a; color: #ffffff; }
-.cart-btn--outline { background: #ffffff; border: 1px solid #0f172a; }
+.cart-btn--black { background:var(--carrito-black); color: #ffffff; }
+.cart-btn--outline { background: #ffffff; border: 1px solid var(--carrito-black); }
 .cart-btn--red { background: var(--whatsapp); color: #ffffff; margin-bottom: 0; } /* Ajustado color whatsapp unificado */
 
 /* ============ PRODUCTS ============ */
@@ -658,13 +648,13 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 
 @media (max-width: 680px) {
   .container { padding: 0 16px; }
+  .product-card { padding: 10px; }
   
   /* Topbar & Header */
   .topbar__inner { flex-direction: column; gap: 6px; align-items: flex-start; }
   .topbar__right { font-size: 0.8rem; margin-left: auto; }
   .topbar__left { display: none; }
   .header__inner { padding: 5px 16px; }
-  .nav-logo { height: 60px; width: auto; }
 
   /* Footer */
   .footer__grid { grid-template-columns: 1fr; }

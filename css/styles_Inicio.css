@@ -126,22 +126,13 @@
   align-items: center;
   margin-bottom: 44px;
 }
+
 .see-all {
-  color: var(--navy);
-  font-weight: 600;
-  font-size: 0.9rem;
-  display: inline-block; 
-  
   /* Animación basada en el scroll */
   animation: deslizarDesdeIzquierda linear both;
-  animation-timeline: view();
-  
+  animation-timeline: view();  
   /* Empieza a entrar cuando el enlace asoma un 10% y termina cuando llega al 30% de la pantalla */
   animation-range: entry 10% cover 30%; 
-}
-
-.see-all:hover { 
-  color: var(--yellow-dark); 
 }
 
 @keyframes deslizarDesdeIzquierda {
@@ -287,9 +278,10 @@
     gap: 12px;
     margin-top: 8px;
 }
-.redes-sociales a { transition: transform 0.2s ease;}
+.redes-sociales a { transition: transform 0.2s ease; }
 .redes-sociales a:hover { transform: translateY(-3px); }
-.redes-sociales a:hover rect { fill: #e0a300; transition: fill 0.3s ease; }
+.redes-sociales a svg { color: #667085; transition: color 0.3s ease; }
+.redes-sociales a:hover svg { color: #e0a300; }
 
 /* mapa */
 .map-card iframe {
