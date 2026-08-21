@@ -16,13 +16,12 @@
 function crearProductoHTML(producto, index) {
     const urlDetalle = `${window.location.origin}/detalle.html?id=${producto.id}`;
 
-    // Las primeras 4 imágenes se cargan normalmente.
-    // Las demás se cargan de forma diferida.
+    const esPrimeraImagen = index === 0; // la que realmente es el LCP
     const loading = index < 4 ? "eager" : "lazy";
+    const fetchPriority = esPrimeraImagen ? "high" : "auto";
 
     return `
         <div class="product-card">
-
             <a 
                 href="detalle.html?id=${producto.id}" 
                 class="product-card__cover-link" 
@@ -34,6 +33,10 @@ function crearProductoHTML(producto, index) {
                     src="${producto.imagen}"
                     alt="${producto.nombre}"
                     loading="${loading}"
+                    fetchpriority="${fetchPriority}"
+                    decoding="${esPrimeraImagen ? 'sync' : 'async'}"
+                    width="400"
+                    height="400"
                 >
             </div>
 

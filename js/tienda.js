@@ -704,7 +704,7 @@
 
     function cargarProductos() {
 
-        fetch("data/productos.json")
+        fetch("data/productos-listado.json")
 
             .then(response => {
 

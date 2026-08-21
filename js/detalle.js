@@ -60,6 +60,7 @@ function renderizarProducto(p) {
     if (mainImg) {
         mainImg.src = p.imagenes[0];
         mainImg.alt = p.nombre;
+        mainImg.fetchPriority = "high";
     }
 
     // ── Miniaturas (thumbs)
