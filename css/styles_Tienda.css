@@ -1,32 +1,66 @@
 /* =========================================================
    HERO — Catálogo de productos
    ========================================================= */
-.shop-hero{
-  background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banners/banner1.webp");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color:var(--white);
-  overflow:hidden;
+.shop-hero {
+  /* Gradiente oscuro, industrial y elegante */
+  background: linear-gradient(120deg, #1e293b, #2c4277, #1e293b);
+  background-size: 200% 200%;
+  color: #ffffff;
+  animation: heroGradient 8s ease infinite;
 }
-.shop-hero__content{
-  min-height: clamp(120px, 18vh, 220px);
+
+.shop-hero__content {
+  min-height: clamp(80px, 10vh, 220px);
   padding: clamp(16px, 2.5vw, 36px) clamp(16px, 4vw, 48px);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.shop-hero__content h1{
+.shop-hero__content h1 {
   font-size: clamp(1.6rem, 4vw, 2.8rem);
-  font-weight:700;
-  line-height:1.15;
-  margin-bottom:12px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 12px;
+
+  /* Animación de entrada para el título */
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-.shop-hero__content p{
-  color:#c7d3e3;
-  font-size:1.05rem;
-  max-width:46ch;
+
+.shop-hero__content p {
+  color: #94a3b8; /* Un gris claro azulado, menos brillante que el original */
+  font-weight: 500; /* Levemente menos grueso para mayor legibilidad */
+  font-size: 1.05rem;
+  max-width: 46ch;
+  opacity: 0;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+}
+
+/* --- Keyframes de las animaciones --- */
+
+/* 1. Transición continua del gradiente */
+@keyframes heroGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 2. Entrada suave desplazándose desde abajo */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 
@@ -149,7 +183,7 @@
   display:inline-flex;
   align-items:center;
   gap:6px;
-  background:var(--white);
+  background:#f5a74f;
   border:1px solid var(--gray-line);
   border-radius:999px;
   padding:6px 12px;
@@ -231,6 +265,7 @@
   .shop { padding: 15px 0 64px; }
   .shop-hero__inner { grid-template-columns: 1fr; text-align: center; padding-top: 28px; }
   .shop-hero__logo { margin-inline: auto; }
+  .shop-hero__content h1{ margin-bottom: 0;}
   .shop__layout { grid-template-columns: 1fr; gap: 14px; }
   
   .shop__sidebar {

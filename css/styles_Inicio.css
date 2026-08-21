@@ -1,4 +1,4 @@
-/* ============ HERO ============ */
+/* -------------------HERO ----------------- */
 .hero {
   position: relative;
   background-color: #0b0f19; /* Color oscuro de respaldo */
@@ -23,7 +23,7 @@
 .hero__bg img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Hace que funcione igual que background-size: cover */
+  object-fit: cover;
   object-position: center;
 }
 
@@ -35,18 +35,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.137));
+  background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.15));
   z-index: 1; /* Se pone por encima de la foto (0), pero debajo del texto (2) */
 }
 
-/* --- ASEGURAR QUE EL TEXTO ESTÉ ARRIBA --- */
-.hero__inner,
-.hero__badge {
-  position: relative;
-  z-index: 2; /* Sube el contenido por encima del degradado */
-}
+.hero__inner, .hero__badge { position: relative; z-index: 2; }
 
-/* EL RESTO DE TU CSS SE MANTIENE EXACTAMENTE IGUAL */
 .hero__inner {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -59,20 +53,10 @@
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: clamp(12px, 2vw, 20px);
-  text-wrap: balance; 
+  text-wrap: balance;
 }
 .hero h1 .hl { color: var(--yellow); }
-
-.hero__subtitle {
-  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  color: #cfd6e8;
-  max-width: 480px;
-  margin-bottom: clamp(20px, 3vw, 28px);
-  line-height: 1.5;
-  text-wrap: pretty;
-}
-
-.hero__cta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.hero__subtitle { margin: 0 auto 24px auto; }
 
 .hero__badge {
   display: flex;
@@ -91,6 +75,7 @@
   margin-top: -20px;  /* Ajusta este valor (negativo) para subirlo tanto como quieras sobre el banner */
 }
 .hero__badge strong { font-size: 0.82rem; color: var(--white); }
+
 /* ============ SECTION GENERIC ============ */
 .section { padding: 50px 0; }
 
@@ -110,10 +95,28 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
   height: 4px;
   background: var(--yellow);
   border-radius: 2px;
+  width: 0;
+
+  /* 1. Asignamos la animación y sus características de tiempo */
+  animation: expandLine ease-out forwards;
+  
+  /* 2. Le decimos a CSS que controle la animación según la posición en pantalla */
+  animation-timeline: view();
+  
+  /* 3. Definimos en qué punto preciso de la pantalla debe iniciar y terminar */
+  animation-range: entry 20% cover 40%;
+}
+
+@keyframes expandLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60px;
+  }
 }
 
 
@@ -127,8 +130,30 @@
   color: var(--navy);
   font-weight: 600;
   font-size: 0.9rem;
+  display: inline-block; 
+  
+  /* Animación basada en el scroll */
+  animation: deslizarDesdeIzquierda linear both;
+  animation-timeline: view();
+  
+  /* Empieza a entrar cuando el enlace asoma un 10% y termina cuando llega al 30% de la pantalla */
+  animation-range: entry 10% cover 30%; 
 }
-.see-all:hover { color: var(--yellow-dark); }
+
+.see-all:hover { 
+  color: var(--yellow-dark); 
+}
+
+@keyframes deslizarDesdeIzquierda {
+  0% {
+    transform: translateX(-100vw); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
 
 /* ============ CATEGORIES ============ */
 .categories-grid {
@@ -147,19 +172,21 @@
   flex-direction: column;
   align-items: center;
   gap: 14px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
-.category-card:hover {
-  box-shadow: var(--shadow);
-  transform: translateY(-4px);
-}
+.category-card:hover { transform: translateY(-5px); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);;}
 .category-card__icon {
   padding: 10px;
   border-radius: 50%;
   background: var(--gray-bg);
   display: flex;
   font-size: 1.8rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+.category-card:hover .category-card__icon {
+  background-color:rgb(148, 148, 148); 
+  transform: scale(1.1); 
+}
+
 .category-card__icon img,
 .category-card__icon svg {
   width: 50px;  /* Ajustado a 50px para evitar apretar el título en pantallas intermedias */
@@ -337,9 +364,137 @@
   /* Location / Mapa */
   .location-grid { grid-template-columns: 1fr; }
   .map-card iframe { height: 240px; }
+
+  /* 1. Aplicamos la animación al ícono basada en la vista (scroll) */
+.category-card__icon {
+  /* Usamos "both" para que los estilos se mantengan antes y después */
+  animation: popInCenter linear both;
+  animation-timeline: view();
+  
+  /* Indicamos que evalúe todo el trayecto desde abajo hacia arriba */
+  animation-range: cover 0% cover 100%;
 }
+
+/* 2. Definimos qué pasa en cada parte de la pantalla */
+@keyframes popInCenter {
+  
+  /* Zona Inferior: Desde que entra hasta el 40% de la pantalla (Normal) */
+  0%, 30% {
+    background-color: transparent; /* O el color original que tenga tu ícono */
+    transform: scale(1);
+  }
+  
+  /* EL CENTRO: Entre el 45% y el 55% de la pantalla (Activo / Hover) */
+  45%, 55% {
+    background-color: rgb(148, 148, 148); 
+    transform: scale(1.1);
+  }
+  
+  /* Zona Superior: Del 60% hasta que sale por arriba (Vuelve a Normal) */
+  60%, 100% {
+    background-color: transparent; /* O el color original que tenga tu ícono */
+    transform: scale(1);
+  }
+}
+}
+
 
 @media (max-width: 360px) {
   .products-grid { grid-template-columns: 1fr; }
   .product-card__image { aspect-ratio: 2 / 1; }
 }
+
+
+/* -------------------ANIMACION DEL BOTÓN PRINCIPAL------------------------*/
+/* --- VARIABLES DE COLOR (Aquí cambias el tema de tu botón) --- */
+.animated-button {
+ --btn-bg-1: #ffc107;   
+  --btn-bg-2: #eab004;   
+  --btn-text: #000000;   
+  --btn-glow: #000000;   
+  --btn-hover: #ffffff;  
+
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  background: linear-gradient(-30deg, var(--btn-bg-1) 50%, var(--btn-bg-2) 50%);
+  color: var(--btn-text);
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Efecto Hover (Fondo sutil) */
+.animated-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--btn-hover);
+  opacity: 0;
+  transition: 0.2s opacity ease-in-out;
+}
+.animated-button:hover::before {
+  opacity: 0.2;
+}
+
+/* --- LÍNEAS ANIMADAS --- */
+.animated-button span {
+  position: absolute;
+}
+
+/* Línea Superior */
+.animated-button span:nth-child(1) {
+  top: 0; left: 0;
+  width: 100%; height: 2px;
+  background: linear-gradient(to left, transparent, var(--btn-glow));
+  animation: animateTop 2s linear infinite;
+}
+/* Línea Derecha (Tiene un retraso de -1s para ir intercalada) */
+.animated-button span:nth-child(2) {
+  top: 0; right: 0;
+  height: 100%; width: 2px;
+  background: linear-gradient(to top, transparent, var(--btn-glow));
+  animation: animateRight 2s linear -1s infinite;
+}
+/* Línea Inferior */
+.animated-button span:nth-child(3) {
+  bottom: 0; left: 0;
+  width: 100%; height: 2px;
+  background: linear-gradient(to right, transparent, var(--btn-glow));
+  animation: animateBottom 2s linear infinite;
+}
+/* Línea Izquierda (Tiene un retraso de -1s para ir intercalada) */
+.animated-button span:nth-child(4) {
+  top: 0; left: 0;
+  height: 100%; width: 2px;
+  background: linear-gradient(to bottom, transparent, var(--btn-glow));
+  animation: animateLeft 2s linear -1s infinite;
+}
+
+/* --- KEYFRAMES (Se declaran una sola vez) --- */
+@keyframes animateTop {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+@keyframes animateRight {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+@keyframes animateBottom {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+@keyframes animateLeft {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+  /* --btn-bg-1: #2d220b;   
+  --btn-text: #ffc107;   
+  --btn-glow: #ffc107;  
+  --btn-hover: #b38b14;  
+  --btn-bg-2: #1c1505;    */

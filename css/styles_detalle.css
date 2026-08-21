@@ -2,44 +2,56 @@
    HERO —  productos
    ========================================================= */
 .shop-hero {
-    background: linear-gradient(120deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../img/banners/banner1.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--white);
-    overflow: hidden;
+  /* Gradiente oscuro, industrial y elegante */
+  background: linear-gradient(120deg, #1e293b, #2c4277, #1e293b);
+  background-size: 200% 200%;
+  color: #ffffff;
+  animation: heroGradient 8s ease infinite;
 }
 
 .shop-hero__content {
-    min-height: clamp(120px, 18vh, 220px);
-    padding: clamp(8px, 1.5vw, 20px) clamp(10px, 2.5vw, 24px);
+    min-height: clamp(80px, 10vh, 220px);
+    padding: clamp(16px, 2.5vw, 36px) clamp(16px, 4vw, 48px);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.shop-hero__content h1 {
-    font-size: clamp(1.6rem, 4vw, 2.8rem);
-    font-weight: 700;
-    line-height: 1.15;
-    margin-bottom: 12px;
-}
-
-.shop-hero__content p {
-    color: #c7d3e3;
-    font-size: 1.05rem;
-    max-width: 46ch;
+    align-items: center;
 }
 
 /* NAVEGACIÓN DE MIGAS DE PAN (BREADCRUMBS) */
 .breadcrumb {
-    font-size: 0.9rem;
+    font-size: clamp(1rem, 4vw, 1.8rem);
+    font-weight: 700;
+    line-height: 1.15;
     display: flex;
     gap: 20px;
+          /* Animación de entrada para el título */
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.breadcrumb a:hover{ color:#102d77}
+/* --- Keyframes de las animaciones --- */
+
+/* 1. Transición continua del gradiente */
+@keyframes heroGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.breadcrumb a {
-    color: var(--color-yellow);
+/* 2. Entrada suave desplazándose desde abajo */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* TARJETA PRINCIPAL DEL PRODUCTO */

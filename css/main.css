@@ -114,22 +114,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
     transform: translateY(0);
 }
 
-/* Animación y posicionamiento de la flecha */
-@keyframes arrow-bounce {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(5px);
-    }
-}
 
-.btn--yellow .btn-arrow-anim {
-    position: absolute;
-    left: 10px;
-    display: inline-block;
-    animation: arrow-bounce 1.5s infinite ease-in-out;
-}
 
 .btn--whatsapp-sm {
   background: var(--green);
@@ -545,6 +530,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .redes-sociales a:hover rect { fill: #e0a300; transition: fill 0.3s ease; }
 
 /* ============ BOTONES FLOTANTES ============ */
+/* --- 1. APARICIÓN INICIAL Y FLOTACIÓN BASE --- */
 .wsp-float, .cart-float {
   position: fixed;
   right: 24px;
@@ -556,13 +542,42 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   justify-content: center;
   box-shadow: 0 8px 20px rgba(0,0,0,.2);
   z-index: 60;
-  transition: transform .2s ease;
-}
-.wsp-float { bottom: 96px; }
-.wsp-float:hover, .cart-float:hover { transform: translateY(-3px) scale(1.04); }
+  transition: transform .2s ease, box-shadow .2s ease;
 
-.cart-float { bottom: 24px; background: var(--orange); }
+  /* Animación de entrada al cargar la página */
+  animation: floatPopIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.wsp-float { 
+  bottom: 96px; 
+  /* Retraso ligero para que aparezcan en secuencia */
+  animation-delay: 0.2s; 
+}
+
+.cart-float { 
+  bottom: 24px; 
+  background: var(--orange); 
+  animation-delay: 0.4s;
+}
+
 .cart-float svg { width: 26px; height: 26px; }
+
+/* --- 2. EFECTO PULSO / RADAR PARA WHATSAPP --- */
+/* Creamos una onda expansiva detrás del botón de WhatsApp */
+.wsp-float::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #25d366; /* Verde característico de WhatsApp */
+  z-index: -1;
+  animation: pulseOnda 2s infinite;
+}
+
+/* --- 3. ANIMACIÓN PARA LA INSIGNIA DEL CARRITO --- */
 .cart-float__badge {
   position: absolute;
   top: -4px;
@@ -580,6 +595,51 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   align-items: center;
   justify-content: center;
   border: 2px solid var(--white);
+
+  /* Animación de latido continuo para destacar productos agregados */
+  animation: badgePop 1.5s infinite ease-in-out;
+}
+
+/* --- 4. HOVER MEJORADO --- */
+.wsp-float:hover, .cart-float:hover { 
+  transform: translateY(-5px) scale(1.08); 
+  box-shadow: 0 12px 24px rgba(0,0,0,.3);
+}
+
+/* --- KEYFRAMES --- */
+
+/* Entrada con rebote suave desde abajo */
+@keyframes floatPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Onda expansiva de señal */
+@keyframes pulseOnda {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Latido continuo en el número de productos */
+@keyframes badgePop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
 }
 
 /* ============ MEDIA QUERIES GLOBALES (Componentes Compartidos) ============ */
@@ -655,3 +715,5 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 .cart-float.bounce {
     animation: cartBounce 0.5s ease-in-out;
 }
+
+
