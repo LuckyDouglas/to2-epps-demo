@@ -219,6 +219,9 @@
 }
 
 /* ============ PRODUCTS ============ */
+.products-grid {
+    min-height: 600px; /* aprox. el alto que ocupará con productos */
+}
 .product-card__image{ aspect-ratio: 1/1;}
 
 /* ---- Pagination ---- */

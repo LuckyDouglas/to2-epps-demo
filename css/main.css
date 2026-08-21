@@ -588,7 +588,6 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
   border-radius: 50%;
   background: var(--yellow);
   color: var(--navy-900);
-  font-family: var(--font-body);
   font-size: .72rem;
   font-weight: 800;
   display: flex;
