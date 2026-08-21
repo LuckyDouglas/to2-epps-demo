@@ -1,2436 +1,2434 @@
 [
-    {
-        "id": 1,
-        "nombre": "Botas de jebe sin punta de acero Xtreme",
-        "imagen": "img/productos/botas-de-jebe-sin-punta-de-acero-xtreme.webp",
-        "imagenes": [
-            "img/productos/botas-de-jebe-sin-punta-de-acero-xtreme.webp"
-        ],
-        "precio": 0.0,
-        "destacado": true,
-        "categoria": "Calzado de seguridad",
-        "marca": "Nacional",
-        "descripcion": "Botas de jebe sin punta de acero Xtreme. Material: Jebe Tallas: 36-45",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Jebe"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45"
-        ]
-    },
-    {
-        "id": 2,
-        "nombre": "Botín Bulldozer SPRO",
-        "imagen": "img/productos/botin-bulldozer-spro.webp",
-        "imagenes": [
-            "img/productos/botin-bulldozer-spro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": true,
-        "categoria": "Calzado de seguridad",
-        "marca": "SPRO",
-        "descripcion": "Botín Bulldozer SPRO. Material: Cuero Puntera: Acero Plantilla: Anticlavo Suela: Antideslizante y resistente a aceites e hidrocarburos",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Cuero"
-            },
-            {
-                "etiqueta": "Puntera",
-                "valor": "Acero"
-            },
-            {
-                "etiqueta": "Plantilla",
-                "valor": "Anticlavo"
-            },
-            {
-                "etiqueta": "Suela",
-                "valor": "Antideslizante y resistente a aceites e hidrocarburos"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 3,
-        "nombre": "Botín Ranger Dieléctrico SPRO",
-        "imagen": "img/productos/botin-ranger-dielectrico-spro.webp",
-        "imagenes": [
-            "img/productos/botin-ranger-dielectrico-spro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": true,
-        "categoria": "Calzado de seguridad",
-        "marca": "SPRO",
-        "descripcion": "Botín Ranger Dieléctrico SPRO. Material: Cuero dieléctrico Puntera: Composite no metálica Plantilla: Acolchada Suela: Antideslizante, resistente a hidrocarburos y aceites",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Cuero dieléctrico"
-            },
-            {
-                "etiqueta": "Puntera",
-                "valor": "Composite no metálica"
-            },
-            {
-                "etiqueta": "Plantilla",
-                "valor": "Acolchada"
-            },
-            {
-                "etiqueta": "Suela",
-                "valor": "Antideslizante, resistente a hidrocarburos y aceites"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 4,
-        "nombre": "Zapato modelo Harder SEGPRO",
-        "imagen": "img/productos/zapato-modelo-harder-segpro.webp",
-        "imagenes": [
-            "img/productos/zapato-modelo-harder-segpro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Calzado de seguridad",
-        "marca": "SEGPRO",
-        "descripcion": "Zapato modelo Harder SEGPRO. Material: Cuero crupón engrasado Puntera: Acero Plantilla: Antiperforante Suela: PU-bidensidad, antideslizante y resistente a hidrocarburos",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Cuero crupón engrasado"
-            },
-            {
-                "etiqueta": "Puntera",
-                "valor": "Acero"
-            },
-            {
-                "etiqueta": "Plantilla",
-                "valor": "Antiperforante"
-            },
-            {
-                "etiqueta": "Suela",
-                "valor": "PU-bidensidad, antideslizante y resistente a hidrocarburos"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 5,
-        "nombre": "Rodillera profesional poliéster STEELPRO",
-        "imagen": "img/productos/rodillera-profesional-poliester-steelpro.webp",
-        "imagenes": [
-            "img/productos/rodillera-profesional-poliester-steelpro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Protección de rodillas",
-        "marca": "STEELPRO",
-        "descripcion": "Rodillera profesional poliéster STEELPRO.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 6,
-        "nombre": "Pantalones Drill",
-        "imagen": "img/productos/pantalones-drill.webp",
-        "imagenes": [
-            "img/productos/pantalones-drill.webp",
-            "img/productos/pantalones-drill-1.webp",
-            "img/productos/pantalones-drill-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Pantalones Drill. Colores: Naranja, azul marino, plomo, rojo, amarillo y más Material Drill con cinta china 1\" Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Material Drill con cinta china 1\""
-            }
-        ],
-        "colores": [
-            "Naranja",
-            "azul marino",
-            "plomo",
-            "rojo",
-            "amarillo",
-            "más"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 7,
-        "nombre": "Polo 30 al 1 Plomo Tela Delgada",
-        "imagen": "img/productos/polo-30-al-1-plomo.webp",
-        "imagenes": [
-            "img/productos/polo-30-al-1-plomo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Polo 30 al 1 Plomo. Plomo, tela delgada Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Plomo, tela delgada"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 8,
-        "nombre": "Polos 30 al 1 Tela Delgada",
-        "imagen": "img/productos/polos-30-al-1.webp",
-        "imagenes": [
-            "img/productos/polos-30-al-1.webp",
-            "img/productos/polos-30-al-1-azul.webp",
-            "img/productos/polos-30-al-1-azul-marino.webp",
-            "img/productos/polos-30-al-1-azulino.webp",
-            "img/productos/polos-30-al-1-naranja.webp",
-            "img/productos/polos-30-al-1-rojo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Polos 30 al 1. Colores: Azul marino, naranja, azulino, verde jade, rojo, negro y más Tela delgada Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Tela delgada"
-            }
-        ],
-        "colores": [
-            "Azul marino",
-            "naranja",
-            "azulino",
-            "verde jade",
-            "rojo",
-            "negro",
-            "más"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 9,
-        "nombre": "Polo 20 al 1 Plomo Tela Gruesa",
-        "imagen": "img/productos/polo-20-al-1-plomo.webp",
-        "imagenes": [
-            "img/productos/polo-20-al-1-plomo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Polo 20 al 1 Plomo. Plomo, tela gruesa Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Plomo, tela gruesa"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 10,
-        "nombre": "Polos 20 al 1 Tela Gruesa",
-        "imagen": "img/productos/polos-20-al-1.webp",
-        "imagenes": [
-            "img/productos/polos-20-al-1.webp",
-            "img/productos/polos-30-al-1-azul.webp",
-            "img/productos/polos-30-al-1-azul-marino.webp",
-            "img/productos/polos-30-al-1-azulino.webp",
-            "img/productos/polos-30-al-1-naranja.webp",
-            "img/productos/polos-30-al-1-rojo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Polos 20 al 1. Colores: Azul marino, naranja, azulino, verde jade, rojo, negro y más Tela gruesa Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Tela gruesa"
-            }
-        ],
-        "colores": [
-            "Azul marino",
-            "naranja",
-            "azulino",
-            "verde jade",
-            "rojo",
-            "negro",
-            "más"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 11,
-        "nombre": "Polo Piqué cuello camisero Plomo",
-        "imagen": "img/productos/polo-pique-cuello-camisero-plomo.webp",
-        "imagenes": [
-            "img/productos/polo-pique-cuello-camisero-plomo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Polo Piqué cuello camisero Plomo. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 12,
-        "nombre": "Camisa Oxford azul italiano nacional",
-        "imagen": "img/productos/camisa-oxford-azul-italiano-nacional.webp",
-        "imagenes": [
-            "img/productos/camisa-oxford-azul-italiano-nacional.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Camisa Oxford azul italiano nacional. Tallas: S-M-L-XL-XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 13,
-        "nombre": "Chalecos malla liviana",
-        "imagen": "img/productos/chalecos-malla-liviana.webp",
-        "imagenes": [
-            "img/productos/chalecos-malla-liviana.webp",
-            "img/productos/chalecos-malla-pesada-verde-limon.webp",
-            "img/productos/chalecos-malla-pesada-naranja.webp"
-            
-        ],
-        "precio": 0.0,
-        "destacado": true,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chalecos malla liviana. Colores: Naranja y verde limón Malla liviana",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Malla liviana"
-            }
-        ],
-        "colores": [
-            "Naranja",
-            "verde limón"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 14,
-        "nombre": "Chalecos malla pesada Clute",
-        "imagen": "img/productos/chalecos-malla-pesada-clute.webp",
-        "imagenes": [
-            "img/productos/chalecos-malla-pesada-clute.webp",
-            "img/productos/chalecos-malla-pesada-verde-limon.webp",
-            "img/productos/chalecos-malla-pesada-naranja.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Clute",
-        "descripcion": "Chalecos malla pesada Clute. Colores: Naranja y verde limón Malla pesada",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Malla pesada"
-            }
-        ],
-        "colores": [
-            "Naranja",
-            "verde limón"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 15,
-        "nombre": "Chalecos Drill H",
-        "imagen": "img/productos/chalecos-drill-h.webp",
-        "imagenes": [
-            "img/productos/chalecos-drill-h.webp",
-            "img/productos/chalecos-drill-h-1.webp",
-            "img/productos/chalecos-drill-h-2.webp",
-            "img/productos/chalecos-drill-h-3.webp",
-            "img/productos/chalecos-drill-h-4.webp",
-            "img/productos/chalecos-drill-h-5.webp",
-            "img/productos/chalecos-drill-h-6.webp",
-            "img/productos/chalecos-drill-h-7.webp",
-            "img/productos/chalecos-drill-h-8.webp",
-            "img/productos/chalecos-drill-h-9.webp"
-        ],
-        "precio": 0.0,
-        "destacado": true,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chalecos Drill H. Material Drill + cinta china 2\" Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Material Drill + cinta china 2\""
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 16,
-        "nombre": "Chalecos Drill Reportero",
-        "imagen": "img/productos/chalecos-drill-reportero.webp",
-        "imagenes": [
-            "img/productos/chalecos-drill-reportero.webp",
-            "img/productos/chalecos-drill-reportero-1.webp",
-            "img/productos/chalecos-drill-reportero-2.webp",
-            "img/productos/chalecos-drill-reportero-3.webp",
-            "img/productos/chalecos-drill-reportero-4.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chalecos Drill Reportero. Material Drill + cierre en bolsillos Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Material Drill + cierre en bolsillos"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 17,
-        "nombre": "Chaleco Drill cinta 3M H Reportero con cierre atrás",
-        "imagen": "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras.webp",
-        "imagenes": [
-            "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras.webp",
-            "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras-1.webp",
-            "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "3M",
-        "descripcion": "Chaleco Drill cinta 3M H Reportero con cierre atrás. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 18,
-        "nombre": "Casaca acolchada impermeable cinta china",
-        "imagen": "img/productos/casaca-acolchada-impermeable-cinta-china.webp",
-        "imagenes": [
-            "img/productos/casaca-acolchada-impermeable-cinta-china.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Casaca acolchada impermeable cinta china. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 19,
-        "nombre": "Camisas Drill con cinta",
-        "imagen": "img/productos/camisas-drill-con-cinta.webp",
-        "imagenes": [
-            "img/productos/camisas-drill-con-cinta.webp",
-            "img/productos/camisas-drill-con-cinta-azul-marino.webp",
-            "img/productos/camisas-drill-con-cinta-naranja.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Camisas Drill con cinta. Colores: Azul marino y naranja Material Drill con cinta china 1\" Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Material Drill con cinta china 1\""
-            }
-        ],
-        "colores": [
-            "Azul marino",
-            "naranja"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 20,
-        "nombre": "Pantalón jean lavado sin cinta",
-        "imagen": "img/productos/pantalon-jean-lavado-sin-cinta.webp",
-        "imagenes": [
-            "img/productos/pantalon-jean-lavado-sin-cinta.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Pantalón jean lavado sin cinta. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 21,
-        "nombre": "Pantalón jean lavado con cinta",
-        "imagen": "img/productos/pantalon-jean-lavado-con-cinta.webp",
-        "imagenes": [
-            "img/productos/pantalon-jean-lavado-con-cinta.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Pantalón jean lavado con cinta. Jean 14 onzas Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Jean 14 onzas"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 22,
-        "nombre": "Camisa jean lavado",
-        "imagen": "img/productos/camisa-jean-lavado.webp",
-        "imagenes": [
-            "img/productos/camisa-jean-lavado.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Camisa jean lavado. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 23,
-        "nombre": "Pantalón jean crudo",
-        "imagen": "img/productos/pantalon-jean-crudo.webp",
-        "imagenes": [
-            "img/productos/pantalon-jean-crudo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Pantalón jean crudo. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 24,
-        "nombre": "Camisa jean crudo",
-        "imagen": "img/productos/camisa-jean-crudo.webp",
-        "imagenes": [
-            "img/productos/camisa-jean-crudo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Camisa jean crudo. Jean 14 onzas Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Jean 14 onzas"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 25,
-        "nombre": "Poncho PVC y poliéster SEGPRO",
-        "imagen": "img/productos/poncho-pvc-y-poliester-segpro.webp",
-        "imagenes": [
-            "img/productos/poncho-pvc-y-poliester-segpro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "SEGPRO",
-        "descripcion": "Poncho PVC y poliéster SEGPRO. Variedad de colores Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Variedad de colores"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 26,
-        "nombre": "Poncho PVC Clute",
-        "imagen": "img/productos/poncho-pvc-clute.webp",
-        "imagenes": [
-            "img/productos/poncho-pvc-clute.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Clute",
-        "descripcion": "Poncho PVC Clute. Variedad de colores Tallas: S, M, L, XL, XXL",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Variedad de colores"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 27,
-        "nombre": "Poncho PVC y poliéster naranja con cinta reflectiva Clute",
-        "imagen": "img/productos/poncho-pvc-y-poliester-naranja-con-cinta-reflectiva-clute.webp",
-        "imagenes": [
-            "img/productos/poncho-pvc-y-poliester-naranja-con-cinta-reflectiva-clute.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Clute",
-        "descripcion": "Poncho PVC y poliéster naranja con cinta reflectiva Clute. Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 28,
-        "nombre": "Mamelucos Drill delgados",
-        "imagen": "img/productos/mamelucos-drill-delgados.webp",
-        "imagenes": [
-            "img/productos/mamelucos-drill-delgados.webp",
-            "img/productos/mamelucos-drill-delgados-azul.webp",
-            "img/productos/mamelucos-drill-delgados-naranja.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Mamelucos Drill delgados. Colores: Azul y naranja Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [
-            "Azul",
-            "naranja"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 29,
-        "nombre": "Chompa Jorge Chávez",
-        "imagen": "img/productos/chompa-jorge-chavez.webp",
-        "imagenes": [
-            "img/productos/chompa-jorge-chavez.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chompa Jorge Chávez. Colores: Negro y azul Tallas: S, M, L, XL, XXL",
-        "especificaciones": [],
-        "colores": [
-            "Negro",
-            "azul"
-        ],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ]
-    },
-    {
-        "id": 30,
-        "nombre": "Cortavientos Drill",
-        "imagen": "img/productos/cortavientos-drill.webp",
-        "imagenes": [
-            "img/productos/cortavientos-drill.webp",
-            "img/productos/cortavientos-drill-rojo.webp",
-            "img/productos/cortavientos-drill-amarillo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Cortavientos Drill. Colores: Rojo, naranja, azul, plomo, verde fosforescente, amarillo, celeste",
-        "especificaciones": [],
-        "colores": [
-            "Rojo",
-            "naranja",
-            "azul",
-            "plomo",
-            "verde fosforescente",
-            "amarillo",
-            "celeste"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 31,
-        "nombre": "Cortavientos con polar",
-        "imagen": "img/productos/cortavientos-con-polar.webp",
-        "imagenes": [   
-            "img/productos/cortavientos-con-polar.webp",
-            "img/productos/cortavientos-con-polar-naranja.webp",
-            "img/productos/cortavientos-con-polar-azul.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Cortavientos con polar. Colores: Naranja y azul Material Taslán impermeable con polar",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Material Taslán impermeable con polar"
-            }
-        ],
-        "colores": [
-            "Naranja",
-            "azul"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 32,
-        "nombre": "Chavitos con diseño",
-        "imagen": "img/productos/chavitos-con-diseno.webp",
-        "imagenes": [
-            "img/productos/chavitos-con-diseno.webp",
-            "img/productos/chavitos-con-diseno-1.webp",
-            "img/productos/chavitos-con-diseno-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chavitos con diseño. Diseños variados al azar",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Diseños variados al azar"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 33,
-        "nombre": "Chavito jean crudo",
-        "imagen": "img/productos/chavito-jean-crudo.webp",
-        "imagenes": [
-            "img/productos/chavito-jean-crudo.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Ropa de trabajo",
-        "marca": "Nacional",
-        "descripcion": "Chavito jean crudo. Material: Jean crudo",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Jean crudo"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 34,
-        "nombre": "Sombrero con tapasol",
-        "imagen": "img/productos/sombrero-con-tapasol.webp",
-        "imagenes": [
-            "img/productos/sombrero-con-tapasol.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Gorros y sombreros",
-        "marca": "Nacional",
-        "descripcion": "Sombrero con tapasol. Colores: Azul marino, plomo, beige, verde botella, negro, azulino",
-        "especificaciones": [],
-        "colores": [
-            "Azul marino",
-            "plomo",
-            "beige",
-            "verde botella",
-            "negro",
-            "azulino"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 35,
-        "nombre": "Gorro con tapasol",
-        "imagen": "img/productos/gorro-con-tapasol.webp",
-        "imagenes": [
-            "img/productos/gorro-con-tapasol.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Gorros y sombreros",
-        "marca": "Nacional",
-        "descripcion": "Gorro con tapasol. Colores: Azul marino, plomo, beige, verde botella, negro, azulino",
-        "especificaciones": [],
-        "colores": [
-            "Azul marino",
-            "plomo",
-            "beige",
-            "verde botella",
-            "negro",
-            "azulino"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 36,
-        "nombre": "Casco Bellpower con suspensión plástico",
-        "imagen": "img/productos/casco-bellpower-con-suspension-plastico.webp",
-        "imagenes": [
-            "img/productos/casco-bellpower-con-suspension-plastico.webp",
-            "img/productos/casco-bellpower-con-suspension-plastico-1.webp",
-            "img/productos/casco-bellpower-con-suspension-plastico-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "Bellpower",
-        "descripcion": "Casco Bellpower. Con suspensión plástico",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión plástico"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 37,
-        "nombre": "Casco Clute Stark con suspensión regulable",
-        "imagen": "img/productos/casco-clute-stark-con-suspension-regulable.webp",
-        "imagenes": [
-            "img/productos/casco-clute-stark-con-suspension-regulable.webp",
-            "img/productos/casco-clute-stark-con-suspension-regulable-1.webp",
-            "img/productos/casco-clute-stark-con-suspension-regulable-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "Clute",
-        "descripcion": "Casco Clute Stark. Colores: Blanco, verde, rojo, amarillo, gris, azul, negro, rosado, anaranjado Con suspensión regulable",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión regulable"
-            }
-        ],
-        "colores": [
-            "Blanco",
-            "verde",
-            "rojo",
-            "amarillo",
-            "gris",
-            "azul",
-            "negro",
-            "rosado",
-            "anaranjado"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 38,
-        "nombre": "Casco Forte STEELPRO con suspensión regulable",
-        "imagen": "img/productos/casco-forte-steelpro-con-suspension-regulable.webp",
-        "imagenes": [
-            "img/productos/casco-forte-steelpro-con-suspension-regulable.webp",
-            "img/productos/casco-forte-steelpro-con-suspension-regulable-1.webp",
-            "img/productos/casco-forte-steelpro-con-suspension-regulable-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "STEELPRO",
-        "descripcion": "Casco Forte STEELPRO. Colores: Celeste, naranja, verde, rojo Con suspensión regulable",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión regulable"
-            }
-        ],
-        "colores": [
-            "Celeste",
-            "naranja",
-            "verde",
-            "rojo"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 39,
-        "nombre": "Casco Tridentecon-suspensión-regulable",
-        "imagen": "img/productos/casco-tridente-con-suspension-regulable.webp",
-        "imagenes": [
-            "img/productos/casco-tridente-con-suspension-regulable.webp",
-            "img/productos/casco-tridente-con-suspension-regulable-1.webp",
-            "img/productos/casco-tridente-con-suspension-regulable-2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "Nacional",
-        "descripcion": "Casco Tridente. Con suspensión regulable",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión regulable"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 40,
-        "nombre": "Casco 3M H7001 con-suspensión regulable",
-        "imagen": "img/productos/casco-3m-h7001-con-suspension-regulable.webp",
-        "imagenes": [
-            "img/productos/casco-3m-h7001-con-suspension-regulable.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "3M",
-        "descripcion": "Casco 3M H7001. Colores: Blanco, azul, naranja, amarillo Con suspensión regulable",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión regulable"
-            }
-        ],
-        "colores": [
-            "Blanco",
-            "azul",
-            "naranja",
-            "amarillo"
-        ],
-        "tallas": []
-    },
-    {
-        "id": 41,
-        "nombre": "Casco minero Bellpower cons suspención plastico",
-        "imagen": "img/productos/casco-minero-bellpower-con-suspension-plastico.webp",
-        "imagenes": [
-            "img/productos/casco-minero-bellpower-con-suspension-plastico.webp",
-            "img/productos/casco-minero-bellpower-con-suspension-plastico-1.webp",
-            "img/productos/casco-minero-bellpower-con-suspension-plastico-2.webp"
-            
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Cascos de seguridad",
-        "marca": "Bellpower",
-        "descripcion": "Casco minero Bellpower. Con suspensión plástico",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Con suspensión plástico"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 42,
-        "nombre": "Careta soldar Asa",
-        "imagen": "img/productos/careta-soldar-asa.webp",
-        "imagenes": [
-            "img/productos/careta-soldar-asa.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Caretas y máscaras para soldar",
-        "marca": "Nacional",
-        "descripcion": "Careta soldar Asa.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 43,
-        "nombre": "Máscara para soldar Clute nylon visor levantable 633P",
-        "imagen": "img/productos/mascara-para-soldar-clute-nylon-visor-levantable-633p.webp",
-        "imagenes": [
-            "img/productos/mascara-para-soldar-clute-nylon-visor-levantable-633p.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Caretas y máscaras para soldar",
-        "marca": "Clute",
-        "descripcion": "Máscara para soldar Clute nylon visor levantable 633P.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 44,
-        "nombre": "Máscara para soldar Clute visor levantable p/adaptar a casco 6PA2",
-        "imagen": "img/productos/mascara-para-soldar-clute-visor-levantable-padaptar-a-casco-6pa2.webp",
-        "imagenes": [
-            "img/productos/mascara-para-soldar-clute-visor-levantable-padaptar-a-casco-6pa2.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Caretas y máscaras para soldar",
-        "marca": "Clute",
-        "descripcion": "Máscara para soldar Clute visor levantable p/adaptar a casco 6PA2.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 45,
-        "nombre": "Barbiquejo nacional",
-        "imagen": "img/productos/barbiquejo-nacional.webp",
-        "imagenes": [
-            "img/productos/barbiquejo-nacional.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Barbiquejos",
-        "marca": "Nacional",
-        "descripcion": "Barbiquejo nacional.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 46,
-        "nombre": "Barbiquejo Clute",
-        "imagen": "img/productos/barbiquejo-clute.webp",
-        "imagenes": [
-            "img/productos/barbiquejo-clute.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Barbiquejos",
-        "marca": "Clute",
-        "descripcion": "Barbiquejo Clute.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 47,
-        "nombre": "Guante hilo con palma látex CONSEG",
-        "imagen": "img/productos/guante-hilo-con-palma-latex-conseg.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-con-palma-latex-conseg.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante hilo con palma látex. Marcas: Conseg, Gao Naranja, Duraflex Tallas: S, M, L",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Marcas: Conseg, Gao Naranja, Duraflex"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 110,
-        "nombre": "Guante hilo con palma látex GAO NARANJA",
-        "imagen": "img/productos/guante-hilo-con-palma-latex-gao-naranja.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-con-palma-latex.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante hilo con palma látex. Marcas: Conseg, Gao Naranja, Duraflex Tallas: S, M, L",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Marcas: Conseg, Gao Naranja, Duraflex"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 48,
-        "nombre": "Guante Forteflex naranja Gao",
-        "imagen": "img/productos/guante-forteflex-naranja-gao.webp",
-        "imagenes": [
-            "img/productos/guante-forteflex-naranja-gao.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Gao",
-        "descripcion": "Guante Forteflex naranja Gao. Guante hilo naranja con palma látex reforzado doble Tallas: S, M, L",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Guante hilo naranja con palma látex reforzado doble"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 49,
-        "nombre": "Guante hilo rojo palma látex Clute",
-        "imagen": "img/productos/guante-hilo-rojo-palma-latex-clute.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-rojo-palma-latex-clute.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Clute",
-        "descripcion": "Guante hilo rojo palma látex Clute. Tallas: S, M, L",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 50,
-        "nombre": "Guante hilo amarillo palma látex Clute",
-        "imagen": "img/productos/guante-hilo-amarillo-palma-latex-clute.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-amarillo-palma-latex-clute.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Clute",
-        "descripcion": "Guante hilo amarillo palma látex Clute. Tallas: S, M, L",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 51,
-        "nombre": "Guante hilo rojo palma látex STEELPRO",
-        "imagen": "img/productos/guante-hilo-rojo-palma-latex-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-rojo-palma-latex-steelpro.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante hilo rojo palma látex STEELPRO. Tallas: S, M, L",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 52,
-        "nombre": "Guante Cut 5 STEELPRO",
-        "imagen": "img/productos/guante-cut-5-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-cut-5-steelpro.webp"
-        ],
-        "precio": 120.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante Cut 5 STEELPRO. Tallas: M, L Precio: S/ 120.00 docena Precio de referencia del catálogo: S/ 120.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 53,
-        "nombre": "Guante Cut 5 Flyflex",
-        "imagen": "img/productos/guante-cut-5-flyflex.webp",
-        "imagenes": [
-            "img/productos/guante-cut-5-flyflex.webp"
-        ],
-        "precio": 12.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante Cut 5 Flyflex. Tallas: M, L Precio: S/ 12.00 par Precio de referencia del catálogo: S/ 12.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 54,
-        "nombre": "Guante Hyflex 11-727",
-        "imagen": "img/productos/guante-hyflex-11-727.webp",
-        "imagenes": [
-            "img/productos/guante-hyflex-11-727.webp"
-        ],
-        "precio": 260.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante Hyflex 11-727. Precio: S/ 260.00 docena Precio de referencia del catálogo: S/ 260.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 55,
-        "nombre": "Guante hilo con punto PVC ambos lados",
-        "imagen": "img/productos/guante-hilo-con-punto-pvc-ambos-lados.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-con-punto-pvc-ambos-lados.webp"
-        ],
-        "precio": 20.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante hilo con punto PVC ambos lados. Precio: S/ 20.00 docena Precio de referencia del catálogo: S/ 20.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 56,
-        "nombre": "Guante hilo blanco con punto PVC ambos lados",
-        "imagen": "img/productos/guante-hilo-blanco-con-punto-pvc-ambos-lados.webp",
-        "imagenes": [
-            "img/productos/guante-hilo-blanco-con-punto-pvc-ambos-lados.webp"
-        ],
-        "precio": 24.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante hilo blanco con punto PVC ambos lados. Precio: S/ 24.00 docena Precio de referencia del catálogo: S/ 24.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 57,
-        "nombre": "Guante de hilo punto PVC Clute",
-        "imagen": "img/productos/guante-de-hilo-punto-pvc-clute.webp",
-        "imagenes": [
-            "img/productos/guante-de-hilo-punto-pvc-clute.webp"
-        ],
-        "precio": 28.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Clute",
-        "descripcion": "Guante de hilo punto PVC Clute. Precio: S/ 28.00 docena Precio de referencia del catálogo: S/ 28.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 58,
-        "nombre": "Guante cuero exterior largo",
-        "imagen": "img/productos/guante-cuero-exterior-largo.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-exterior-largo.webp"
-        ],
-        "precio": 14.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante cuero exterior largo. Precio: S/ 14.00 par Precio de referencia del catálogo: S/ 14.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 59,
-        "nombre": "Guante cuero cromo exterior corto",
-        "imagen": "img/productos/guante-cuero-cromo-exterior-corto.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-cromo-exterior-corto.webp"
-        ],
-        "precio": 75.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante cuero cromo exterior corto. Precio: S/ 75.00 docena Precio de referencia del catálogo: S/ 75.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 60,
-        "nombre": "Guante cuero cromo exterior reforzado corto",
-        "imagen": "img/productos/guante-cuero-cromo-exterior-reforzado-corto.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-cromo-exterior-reforzado-corto.webp"
-        ],
-        "precio": 85.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante cuero cromo exterior reforzado corto. Precio: S/ 85.00 docena Precio de referencia del catálogo: S/ 85.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 61,
-        "nombre": "Guantes impermeable azul Zeus",
-        "imagen": "img/productos/guantes-impermeable-azul-zeus.webp",
-        "imagenes": [
-            "img/productos/guantes-impermeable-azul-zeus.webp"
-        ],
-        "precio": 38.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guantes impermeable azul Zeus. Tallas: 8-9 Precio: S/ 38.00 docena Precio de referencia del catálogo: S/ 38.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "8",
-            "9"
-        ]
-    },
-    {
-        "id": 62,
-        "nombre": "Guante G40 nitrilo Kleenguard",
-        "imagen": "img/productos/guante-g40-nitrilo-kleenguard.webp",
-        "imagenes": [
-            "img/productos/guante-g40-nitrilo-kleenguard.webp"
-        ],
-        "precio": 9.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Kleenguard",
-        "descripcion": "Guante G40 nitrilo Kleenguard. Tallas: S, M, L, XL Precio: S/ 9.00 par Precio de referencia del catálogo: S/ 9.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ]
-    },
-    {
-        "id": 63,
-        "nombre": "Guante G40 látex Kleenguard",
-        "imagen": "img/productos/guante-g40-latex-kleenguard.webp",
-        "imagenes": [
-            "img/productos/guante-g40-latex-kleenguard.webp"
-        ],
-        "precio": 10.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Kleenguard",
-        "descripcion": "Guante G40 látex Kleenguard. Tallas: M, L, XL Precio: S/ 10.00 par Precio de referencia del catálogo: S/ 10.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "M",
-            "L",
-            "XL"
-        ]
-    },
-    {
-        "id": 64,
-        "nombre": "Guante Showa 377",
-        "imagen": "img/productos/guante-showa-377.webp",
-        "imagenes": [
-            "img/productos/guante-showa-377.webp"
-        ],
-        "precio": 21.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Showa",
-        "descripcion": "Guante Showa 377. Tallas: M, L Precio: S/ 21.00 par Precio de referencia del catálogo: S/ 21.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": [
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 65,
-        "nombre": "Guante anti-impacto Portwest",
-        "imagen": "img/productos/guante-anti-impacto-portwest.webp",
-        "imagenes": [
-            "img/productos/guante-anti-impacto-portwest.webp"
-        ],
-        "precio": 40.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Portwest",
-        "descripcion": "Guante anti-impacto Portwest. Precio: S/ 40.00 par Precio de referencia del catálogo: S/ 40.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 66,
-        "nombre": "Guante anti-impacto Hexarmor 2021X",
-        "imagen": "img/productos/guante-anti-impacto-hexarmor-2021x.webp",
-        "imagenes": [
-            "img/productos/guante-anti-impacto-hexarmor-2021x.webp"
-        ],
-        "precio": 45.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Hexarmor",
-        "descripcion": "Guante anti-impacto Hexarmor 2021X. Precio: S/ 45.00 par Precio de referencia del catálogo: S/ 45.00 par.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 67,
-        "nombre": "Guante cuero Driver blanco STEELPRO",
-        "imagen": "img/productos/guante-cuero-driver-blanco-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-driver-blanco-steelpro.webp"
-        ],
-        "precio": 60.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante cuero Driver blanco STEELPRO. Precio: S/ 60.00 docena Precio de referencia del catálogo: S/ 60.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 68,
-        "nombre": "Guante cuero Driver amarillo STEELPRO",
-        "imagen": "img/productos/guante-cuero-driver-amarillo-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-driver-amarillo-steelpro.webp"
-        ],
-        "precio": 62.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante cuero Driver amarillo STEELPRO. Precio: S/ 62.00 docena Precio de referencia del catálogo: S/ 62.00 docena.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 69,
-        "nombre": "Guante Badana Tecseg blanco",
-        "imagen": "img/productos/guante-badana-tecseg-blanco.webp",
-        "imagenes": [
-            "img/productos/guante-badana-tecseg-blanco.webp"
-        ],
-        "precio": 57.0,
-        "destacado": true,
-        "categoria": "Guantes",
-        "marca": "Tecseg",
-        "descripcion": "Guante Badana Tecseg blanco. Material: Badana Tallas: 9, 10 Precio: S/ 57.00 docena Precio de referencia del catálogo: S/ 57.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Badana"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "9",
-            "10"
-        ]
-    },
-    {
-        "id": 70,
-        "nombre": "Guante Badana Tecseg amarillo",
-        "imagen": "img/productos/guante-badana-tecseg-amarillo.webp",
-        "imagenes": [
-            "img/productos/guante-badana-tecseg-amarillo.webp"
-        ],
-        "precio": 57.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Tecseg",
-        "descripcion": "Guante Badana Tecseg amarillo. Material: Badana Tallas: 9, 10 Precio: S/ 57.00 docena Precio de referencia del catálogo: S/ 57.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Badana"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "9",
-            "10"
-        ]
-    },
-    {
-        "id": 71,
-        "nombre": "Guante Badana blanco STEELPRO",
-        "imagen": "img/productos/guante-badana-blanco-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-badana-blanco-steelpro.webp"
-        ],
-        "precio": 65.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante Badana blanco STEELPRO. Material: Badana Precio: S/ 65.00 docena Precio de referencia del catálogo: S/ 65.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Badana"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 72,
-        "nombre": "Guante Badana amarillo STEELPRO",
-        "imagen": "img/productos/guante-badana-amarillo-steelpro.webp",
-        "imagenes": [
-            "img/productos/guante-badana-amarillo-steelpro.webp"
-        ],
-        "precio": 65.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "STEELPRO",
-        "descripcion": "Guante Badana amarillo STEELPRO. Material: Badana Precio: S/ 65.00 docena Precio de referencia del catálogo: S/ 65.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Badana"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 73,
-        "nombre": "Guante soldador Indura naranja",
-        "imagen": "img/productos/guante-soldador-indura-naranja.webp",
-        "imagenes": [
-            "img/productos/guante-soldador-indura-naranja.webp"
-        ],
-        "precio": 0.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Indura",
-        "descripcion": "Guante soldador Indura naranja.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 74,
-        "nombre": "Guante cuero soldador palma reforzado",
-        "imagen": "img/productos/guante-cuero-soldador-palma-reforzado.webp",
-        "imagenes": [
-            "img/productos/guante-cuero-soldador-palma-reforzado.webp"
-        ],
-        "precio": 20.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante cuero soldador palma reforzado. Refuerzo en la palma y nudillos color negro Precio: S/ 20.00 par Precio de referencia del catálogo: S/ 20.00 par.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Refuerzo en la palma y nudillos color negro"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 75,
-        "nombre": "Guante nitrilo Touch",
-        "imagen": "img/productos/guante-nitrilo-touch.webp",
-        "imagenes": [
-            "img/productos/guante-nitrilo-touch.webp"
-        ],
-        "precio": 55.0,
-        "destacado": false,
-        "categoria": "Guantes",
-        "marca": "Nacional",
-        "descripcion": "Guante nitrilo Touch. Material: Nitrilo Protección contra salpicaduras químicas Tallas: M, L Precio: S/ 55.00 cajita Precio de referencia del catálogo: S/ 55.00 cajita.",
-        "especificaciones": [
-            {
-                "etiqueta": "Material",
-                "valor": "Nitrilo"
-            },
-            {
-                "etiqueta": "Detalle",
-                "valor": "Protección contra salpicaduras químicas"
-            }
-        ],
-        "colores": [],
-        "tallas": [
-            "M",
-            "L"
-        ]
-    },
-    {
-        "id": 76,
-        "nombre": "Lente Visión HC Tecseg oscuro",
-        "imagen": "img/productos/lente-vision-hc-tecseg-oscuro.webp",
-        "imagenes": [
-            "img/productos/lente-vision-hc-tecseg-oscuro.webp"
-        ],
-        "precio": 23.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Tecseg",
-        "descripcion": "Lente Visión HC Tecseg oscuro. Tipo: HC Precio: S/ 23.00 docena Precio de referencia del catálogo: S/ 23.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Tipo",
-                "valor": "HC"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 77,
-        "nombre": "Lente Visión HC Tecseg claro",
-        "imagen": "img/productos/lente-vision-hc-tecseg-claro.webp",
-        "imagenes": [
-            "img/productos/lente-vision-hc-tecseg-claro.webp"
-        ],
-        "precio": 23.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Tecseg",
-        "descripcion": "Lente Visión HC Tecseg claro. Tipo: HC Precio: S/ 23.00 docena Precio de referencia del catálogo: S/ 23.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Tipo",
-                "valor": "HC"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 78,
-        "nombre": "Lente HC económico oscuro",
-        "imagen": "img/productos/lente-hc-economico-oscuro.webp",
-        "imagenes": [
-            "img/productos/lente-hc-economico-oscuro.webp"
-        ],
-        "precio": 11.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Nacional",
-        "descripcion": "Lente HC económico oscuro. Marco azul y negro variado Precio: S/ 11.00 docena Precio de referencia del catálogo: S/ 11.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Marco azul y negro variado"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 79,
-        "nombre": "Lente HC económico claro",
-        "imagen": "img/productos/lente-hc-economico-claro.webp",
-        "imagenes": [
-            "img/productos/lente-hc-economico-claro.webp"
-        ],
-        "precio": 11.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Nacional",
-        "descripcion": "Lente HC económico claro. Marco azul y negro variado Precio: S/ 11.00 docena Precio de referencia del catálogo: S/ 11.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Marco azul y negro variado"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 80,
-        "nombre": "Lente K2 STEELPRO claro",
-        "imagen": "img/productos/lente-k2-steelpro-claro.webp",
-        "imagenes": [
-            "img/productos/lente-k2-steelpro-claro.webp"
-        ],
-        "precio": 15.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Lente K2 STEELPRO claro. Antiempañante y antirayaduras, tipo Google Precio: S/ 15.00 unidad Precio de referencia del catálogo: S/ 15.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras, tipo Google"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 81,
-        "nombre": "Lente K2 STEELPRO oscuro",
-        "imagen": "img/productos/lente-k2-steelpro-oscuro.webp",
-        "imagenes": [
-            "img/productos/lente-k2-steelpro-oscuro.webp"
-        ],
-        "precio": 15.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Lente K2 STEELPRO oscuro. Antiempañante y antirayaduras, tipo Google Precio: S/ 15.00 unidad Precio de referencia del catálogo: S/ 15.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras, tipo Google"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 82,
-        "nombre": "Lente Everest STEELPRO claro",
-        "imagen": "img/productos/lente-everest-steelpro-claro.webp",
-        "imagenes": [
-            "img/productos/lente-everest-steelpro-claro.webp"
-        ],
-        "precio": 15.5,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Lente Everest STEELPRO claro. Precio: S/ 15.50 unidad Precio de referencia del catálogo: S/ 15.50 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 83,
-        "nombre": "Lente Everest STEELPRO oscuro",
-        "imagen": "img/productos/lente-everest-steelpro-oscuro.webp",
-        "imagenes": [
-            "img/productos/lente-everest-steelpro-oscuro.webp"
-        ],
-        "precio": 15.5,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Lente Everest STEELPRO oscuro. Precio: S/ 15.50 unidad Precio de referencia del catálogo: S/ 15.50 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 84,
-        "nombre": "Lente AF cuadrado oscuro Tecseg",
-        "imagen": "img/productos/lente-af-cuadrado-oscuro-tecseg.webp",
-        "imagenes": [
-            "img/productos/lente-af-cuadrado-oscuro-tecseg.webp"
-        ],
-        "precio": 33.5,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Tecseg",
-        "descripcion": "Lente AF cuadrado oscuro Tecseg. Antiempañante y antirayaduras Precio: S/ 33.50 docena Precio de referencia del catálogo: S/ 33.50 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 85,
-        "nombre": "Lente AF cuadrado claro Tecseg",
-        "imagen": "img/productos/lente-af-cuadrado-claro-tecseg.webp",
-        "imagenes": [
-            "img/productos/lente-af-cuadrado-claro-tecseg.webp"
-        ],
-        "precio": 33.5,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Tecseg",
-        "descripcion": "Lente AF cuadrado claro Tecseg. Antiempañante y antirayaduras Precio: S/ 33.50 docena Precio de referencia del catálogo: S/ 33.50 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 86,
-        "nombre": "Lente AF SP100 cuadrado claro SEGPRO",
-        "imagen": "img/productos/lente-af-sp100-cuadrado-claro-segpro.webp",
-        "imagenes": [
-            "img/productos/lente-af-sp100-cuadrado-claro-segpro.webp"
-        ],
-        "precio": 32.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "SEGPRO",
-        "descripcion": "Lente AF SP100 cuadrado claro SEGPRO. Antiempañante y antirayaduras Precio: S/ 32.00 docena Precio de referencia del catálogo: S/ 32.00 docena.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 87,
-        "nombre": "Sobrelente Top Gun STEELPRO oscuro",
-        "imagen": "img/productos/sobrelente-top-gun-steelpro-oscuro.webp",
-        "imagenes": [
-            "img/productos/sobrelente-top-gun-steelpro-oscuro.webp"
-        ],
-        "precio": 12.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Sobrelente Top Gun STEELPRO oscuro. Precio: S/ 12.00 unidad Precio de referencia del catálogo: S/ 12.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 88,
-        "nombre": "Sobrelente Top Gun STEELPRO claro",
-        "imagen": "img/productos/sobrelente-top-gun-steelpro-claro.webp",
-        "imagenes": [
-            "img/productos/sobrelente-top-gun-steelpro-claro.webp"
-        ],
-        "precio": 12.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Sobrelente Top Gun STEELPRO claro. Precio: S/ 12.00 unidad Precio de referencia del catálogo: S/ 12.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 89,
-        "nombre": "Lente antiparra TRX Full Seal oscuro",
-        "imagen": "img/productos/lente-antiparra-trx-full-seal-oscuro.webp",
-        "imagenes": [
-            "img/productos/lente-antiparra-trx-full-seal-oscuro.webp"
-        ],
-        "precio": 8.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Nacional",
-        "descripcion": "Lente antiparra TRX Full Seal oscuro. Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica Precio: S/ 8.00 unidad Precio de referencia del catálogo: S/ 8.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 90,
-        "nombre": "Lente antiparra TRX Full Seal claro",
-        "imagen": "img/productos/lente-antiparra-trx-full-seal-claro.webp",
-        "imagenes": [
-            "img/productos/lente-antiparra-trx-full-seal-claro.webp"
-        ],
-        "precio": 8.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "Nacional",
-        "descripcion": "Lente antiparra TRX Full Seal claro. Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica Precio: S/ 8.00 unidad Precio de referencia del catálogo: S/ 8.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 91,
-        "nombre": "Lente Turbine STEELPRO claro",
-        "imagen": "img/productos/lente-turbine-steelpro-claro.webp",
-        "imagenes": [
-            "img/productos/lente-turbine-steelpro-claro.webp"
-        ],
-        "precio": 26.0,
-        "destacado": false,
-        "categoria": "Lentes de protección",
-        "marca": "STEELPRO",
-        "descripcion": "Lente Turbine STEELPRO claro. Antiempañante y antirayaduras Precio: S/ 26.00 unidad Precio de referencia del catálogo: S/ 26.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Antiempañante y antirayaduras"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 92,
-        "nombre": "Porta herramientas doble bolsillo con martillero",
-        "imagen": "img/productos/porta-herramientas-doble-bolsillo-con-martillero.webp",
-        "imagenes": [
-            "img/productos/porta-herramientas-doble-bolsillo-con-martillero.webp"
-        ],
-        "precio": 20.0,
-        "destacado": false,
-        "categoria": "Porta herramientas",
-        "marca": "Nacional",
-        "descripcion": "Porta herramientas doble bolsillo con martillero. Nacional Precio: S/ 20.00 unidad Precio de referencia del catálogo: S/ 20.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Nacional"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 93,
-        "nombre": "Porta herramientas 1 bolsón grande",
-        "imagen": "img/productos/porta-herramientas-1-bolson-grande.webp",
-        "imagenes": [
-            "img/productos/porta-herramientas-1-bolson-grande.webp"
-        ],
-        "precio": 15.0,
-        "destacado": false,
-        "categoria": "Porta herramientas",
-        "marca": "Nacional",
-        "descripcion": "Porta herramientas 1 bolsón grande. Nacional Precio: S/ 15.00 unidad Precio de referencia del catálogo: S/ 15.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Nacional"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 94,
-        "nombre": "Linterna Opalux HB-2146-20W",
-        "imagen": "img/productos/linterna-opalux-hb-2146-20w.webp",
-        "imagenes": [
-            "img/productos/linterna-opalux-hb-2146-20w.webp"
-        ],
-        "precio": 220.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "Opalux",
-        "descripcion": "Linterna Opalux HB-2146-20W. Precio: S/ 220.00 unidad Precio de referencia del catálogo: S/ 220.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 95,
-        "nombre": "Linterna frontal roja Opalux 2W OP-5012",
-        "imagen": "img/productos/linterna-frontal-roja-opalux-2w-op-5012.webp",
-        "imagenes": [
-            "img/productos/linterna-frontal-roja-opalux-2w-op-5012.webp"
-        ],
-        "precio": 16.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "Opalux",
-        "descripcion": "Linterna frontal roja Opalux 2W OP-5012. Precio: S/ 16.00 unidad Precio de referencia del catálogo: S/ 16.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 96,
-        "nombre": "Linterna frontal Opalux 5W OP-5052",
-        "imagen": "img/productos/linterna-frontal-opalux-5w-op-5052.webp",
-        "imagenes": [
-            "img/productos/linterna-frontal-opalux-5w-op-5052.webp"
-        ],
-        "precio": 26.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "Opalux",
-        "descripcion": "Linterna frontal Opalux 5W OP-5052. Precio: S/ 26.00 unidad Precio de referencia del catálogo: S/ 26.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 97,
-        "nombre": "Linterna frontal Opalux OP-1102AM LED 3W",
-        "imagen": "img/productos/linterna-frontal-opalux-op-1102am-led-3w.webp",
-        "imagenes": [
-            "img/productos/linterna-frontal-opalux-op-1102am-led-3w.webp"
-        ],
-        "precio": 33.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "Opalux",
-        "descripcion": "Linterna frontal Opalux OP-1102AM LED 3W. Precio: S/ 33.00 unidad Precio de referencia del catálogo: S/ 33.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 98,
-        "nombre": "Lámpara minera inalámbrica KL6000 STEELPRO",
-        "imagen": "img/productos/lampara-minera-inalambrica-kl6000-steelpro.webp",
-        "imagenes": [
-            "img/productos/lampara-minera-inalambrica-kl6000-steelpro.webp"
-        ],
-        "precio": 150.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "STEELPRO",
-        "descripcion": "Lámpara minera inalámbrica KL6000 STEELPRO. Precio: S/ 150.00 unidad Precio de referencia del catálogo: S/ 150.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 99,
-        "nombre": "Lámpara de señalización",
-        "imagen": "img/productos/lampara-de-senalizacion.webp",
-        "imagenes": [
-            "img/productos/lampara-de-senalizacion.webp"
-        ],
-        "precio": 50.0,
-        "destacado": false,
-        "categoria": "Linternas y lámparas",
-        "marca": "Nacional",
-        "descripcion": "Lámpara de señalización. Precio: S/ 50.00 unidad Precio de referencia del catálogo: S/ 50.00 unidad.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 100,
-        "nombre": "Arnés + línea de vida Clute",
-        "imagen": "img/productos/arnes-linea-de-vida-clute.webp",
-        "imagenes": [
-            "img/productos/arnes-linea-de-vida-clute.webp",
-            "img/productos/arnes-linea-de-vida-clute-1.webp",
-            "img/productos/arnes-linea-de-vida-clute-2.webp"
-        ],
-        "precio": 108.5,
-        "destacado": false,
-        "categoria": "Arneses y accesorios de altura",
-        "marca": "Clute",
-        "descripcion": "Arnés + línea de vida Clute. 3 anillos, certificado Precio: S/ 108.50 unidad Precio de referencia del catálogo: S/ 108.50 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "3 anillos, certificado"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 101,
-        "nombre": "Arnés + línea de vida SEGPRO",
-        "imagen": "img/productos/arnes-linea-de-vida-segpro.webp",
-        "imagenes": [
-            "img/productos/arnes-linea-de-vida-segpro.webp",
-            "img/productos/arnes-linea-de-vida-segpro-1.webp",
-            "img/productos/arnes-linea-de-vida-segpro-2.webp"
-        ],
-        "precio": 108.0,
-        "destacado": false,
-        "categoria": "Arneses y accesorios de altura",
-        "marca": "SEGPRO",
-        "descripcion": "Arnés + línea de vida SEGPRO. 3 anillos, certificado Precio: S/ 108.00 unidad Precio de referencia del catálogo: S/ 108.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "3 anillos, certificado"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 102,
-        "nombre": "Correa minero de nylon porta lámpara",
-        "imagen": "img/productos/correa-minero-de-nylon-porta-lampara.webp",
-        "imagenes": [
-            "img/productos/correa-minero-de-nylon-porta-lampara.webp"
-        ],
-        "precio": 9.0,
-        "destacado": false,
-        "categoria": "Arneses y accesorios de altura",
-        "marca": "Nacional",
-        "descripcion": "Correa minero de nylon porta lámpara. Nacional Precio: S/ 9.00 unidad Precio de referencia del catálogo: S/ 9.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Nacional"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 103,
-        "nombre": "Orejera 3M Peltor H9A",
-        "imagen": "img/productos/orejera-3m-peltor-h9a.webp",
-        "imagenes": [
-            "img/productos/orejera-3m-peltor-h9a.webp"
-        ],
-        "precio": 85.0,
-        "destacado": false,
-        "categoria": "Protección auditiva",
-        "marca": "3M",
-        "descripcion": "Orejera 3M Peltor H9A. Recomendadas para exposiciones al ruido TWA de hasta 98 dBA Precio: S/ 85.00 unidad Precio de referencia del catálogo: S/ 85.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Recomendadas para exposiciones al ruido TWA de hasta 98 dBA"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 104,
-        "nombre": "Orejera Peltor 3M H9P3E",
-        "imagen": "img/productos/orejera-peltor-3m-h9p3e.webp",
-        "imagenes": [
-            "img/productos/orejera-peltor-3m-h9p3e.webp"
-        ],
-        "precio": 85.0,
-        "destacado": false,
-        "categoria": "Protección auditiva",
-        "marca": "3M",
-        "descripcion": "Orejera Peltor 3M H9P3E. Clasificación de reducción de ruido (NRR): 23 dB. CSA Clase A Precio: S/ 85.00 unidad Precio de referencia del catálogo: S/ 85.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Clasificación de reducción de ruido (NRR): 23 dB. CSA Clase A"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 105,
-        "nombre": "Tapón bolsita Clute x 100 unidades",
-        "imagen": "img/productos/tapon-bolsita-clute-x-100-und-bolsita.webp",
-        "imagenes": [
-            "img/productos/tapon-bolsita-clute-x-100-und-bolsita.webp"
-        ],
-        "precio": 54.0,
-        "destacado": false,
-        "categoria": "Protección auditiva",
-        "marca": "Clute",
-        "descripcion": "Tapón bolsita Clute x 100 unidades. Precio: S/ 54.00 caja Precio de referencia del catálogo: S/ 54.00 caja.",
-        "especificaciones": [],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 106,
-        "nombre": "Tapón estuche Confort 2000 x 100 unidades SEGPRO",
-        "imagen": "img/productos/tapon-estuche-confort-2000-x-100-und-segpro.webp",
-        "imagenes": [
-            "img/productos/tapon-estuche-confort-2000-x-100-und-segpro.webp",
-            "img/productos/tapon-estuche-confort-2000-x-100-und-segpro-1.webp",
-            "img/productos/tapon-estuche-confort-2000-x-100-und-segpro-2.webp"
-        ],
-        "precio": 95.0,
-        "destacado": false,
-        "categoria": "Protección auditiva",
-        "marca": "SEGPRO",
-        "descripcion": "Tapón estuche Confort 2000 x 100 unidades SEGPRO. Atenuación SNR 30 dB / NRR 25 dB Precio: S/ 95.00 caja Precio de referencia del catálogo: S/ 95.00 caja.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Atenuación SNR 30 dB / NRR 25 dB"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 107,
-        "nombre": "Escarpín cuero cromo",
-        "imagen": "img/productos/escarpin-cuero-cromo.webp",
-        "imagenes": [
-            "img/productos/escarpin-cuero-cromo.webp"
-        ],
-        "precio": 12.0,
-        "destacado": false,
-        "categoria": "Accesorios para soldadura",
-        "marca": "Nacional",
-        "descripcion": "Escarpín cuero cromo. Escarpín para soldar. Protección en los zapatos de chispas Precio: S/ 12.00 par Precio de referencia del catálogo: S/ 12.00 par.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Escarpín para soldar. Protección en los zapatos de chispas"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 108,
-        "nombre": "Manga cuero cromo",
-        "imagen": "img/productos/manga-cuero-cromo.webp",
-        "imagenes": [
-            "img/productos/manga-cuero-cromo.webp"
-        ],
-        "precio": 12.0,
-        "destacado": false,
-        "categoria": "Accesorios para soldadura",
-        "marca": "Nacional",
-        "descripcion": "Manga cuero cromo. Manga cuero cromo para soldar Precio: S/ 12.00 par Precio de referencia del catálogo: S/ 12.00 par.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Manga cuero cromo para soldar"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    },
-    {
-        "id": 109,
-        "nombre": "Mandil cromo soldadura",
-        "imagen": "img/productos/mandil-cromo-soldadura.webp",
-        "imagenes": [
-            "img/productos/mandil-cromo-soldadura.webp"
-        ],
-        "precio": 18.0,
-        "destacado": false,
-        "categoria": "Accesorios para soldadura",
-        "marca": "Nacional",
-        "descripcion": "Mandil cromo soldadura. Mandil cuero cromo para soldar Precio: S/ 18.00 unidad Precio de referencia del catálogo: S/ 18.00 unidad.",
-        "especificaciones": [
-            {
-                "etiqueta": "Detalle",
-                "valor": "Mandil cuero cromo para soldar"
-            }
-        ],
-        "colores": [],
-        "tallas": []
-    }
+  {
+    "id": 1,
+    "nombre": "Botas de jebe sin punta de acero Xtreme",
+    "imagen": "img/productos/botas-de-jebe-sin-punta-de-acero-xtreme.webp",
+    "imagenes": [
+      "img/productos/botas-de-jebe-sin-punta-de-acero-xtreme.webp"
+    ],
+    "precio": 0.0,
+    "destacado": true,
+    "categoria": "Zapato",
+    "marca": "Nacional",
+    "descripcion": "Bota de jebe pensada para trabajos en zonas húmedas o con barro. Su material de jebe facilita el lavado y ofrece buena resistencia al agua, lo que la hace práctica para labores de campo, agrícolas o de limpieza.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Jebe"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Botín Bulldozer SPRO",
+    "imagen": "img/productos/botin-bulldozer-spro.webp",
+    "imagenes": [
+      "img/productos/botin-bulldozer-spro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": true,
+    "categoria": "Zapato",
+    "marca": "SPRO",
+    "descripcion": "Botín de seguridad fabricado en cuero, con puntera de acero que protege el pie frente a golpes e impactos. Su plantilla anticlavo evita perforaciones desde la base, y la suela antideslizante resistente a aceites e hidrocarburos brinda mayor estabilidad en pisos industriales.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Cuero"
+      },
+      {
+        "etiqueta": "Puntera",
+        "valor": "Acero"
+      },
+      {
+        "etiqueta": "Plantilla",
+        "valor": "Anticlavo"
+      },
+      {
+        "etiqueta": "Suela",
+        "valor": "Antideslizante y resistente a aceites e hidrocarburos"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 3,
+    "nombre": "Botín Ranger Dieléctrico SPRO",
+    "imagen": "img/productos/botin-ranger-dielectrico-spro.webp",
+    "imagenes": [
+      "img/productos/botin-ranger-dielectrico-spro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": true,
+    "categoria": "Calzado de seguridad",
+    "marca": "SPRO",
+    "descripcion": "Botín de seguridad dieléctrico elaborado en cuero especial, con puntera composite no metálica que protege sin conducir electricidad. La plantilla acolchada suma comodidad durante jornadas largas, mientras que la suela antideslizante y resistente a hidrocarburos lo hace apto para trabajos eléctricos e industriales.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Cuero dieléctrico"
+      },
+      {
+        "etiqueta": "Puntera",
+        "valor": "Composite no metálica"
+      },
+      {
+        "etiqueta": "Plantilla",
+        "valor": "Acolchada"
+      },
+      {
+        "etiqueta": "Suela",
+        "valor": "Antideslizante, resistente a hidrocarburos y aceites"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 4,
+    "nombre": "Zapato modelo Harder SEGPRO",
+    "imagen": "img/productos/zapato-modelo-harder-segpro.webp",
+    "imagenes": [
+      "img/productos/zapato-modelo-harder-segpro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Calzado de seguridad",
+    "marca": "SEGPRO",
+    "descripcion": "Zapato de seguridad en cuero crupón engrasado, resistente a la abrasión y a la humedad. Incorpora puntera de acero y plantilla antiperforante para mayor protección del pie, además de una suela PU-bidensidad antideslizante y resistente a hidrocarburos, ideal para plantas industriales.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Cuero crupón engrasado"
+      },
+      {
+        "etiqueta": "Puntera",
+        "valor": "Acero"
+      },
+      {
+        "etiqueta": "Plantilla",
+        "valor": "Antiperforante"
+      },
+      {
+        "etiqueta": "Suela",
+        "valor": "PU-bidensidad, antideslizante y resistente a hidrocarburos"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 5,
+    "nombre": "Rodillera profesional poliéster STEELPRO",
+    "imagen": "img/productos/rodillera-profesional-poliester-steelpro.webp",
+    "imagenes": [
+      "img/productos/rodillera-profesional-poliester-steelpro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Protección de rodillas",
+    "marca": "STEELPRO",
+    "descripcion": "Rodillera de poliéster diseñada para brindar protección y soporte a las rodillas durante tareas que exigen posiciones de rodillas prolongadas, como instalaciones, mantenimiento o trabajos en piso.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 6,
+    "nombre": "Pantalones Drill",
+    "imagen": "img/productos/pantalones-drill.webp",
+    "imagenes": [
+      "img/productos/pantalones-drill.webp",
+      "img/productos/pantalones-drill-1.webp",
+      "img/productos/pantalones-drill-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Pantalón de trabajo confeccionado en tela Drill, resistente al uso diario en campo y taller. Incorpora cinta reflectiva china de 1 pulgada que mejora la visibilidad del trabajador en condiciones de poca luz.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Material Drill con cinta china 1\""
+      }
+    ],
+    "colores": [
+      "Naranja",
+      "azul marino",
+      "plomo",
+      "rojo",
+      "amarillo",
+      "más"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Polo 30 al 1 Plomo Tela Delgada",
+    "imagen": "img/productos/polo-30-al-1-plomo.webp",
+    "imagenes": [
+      "img/productos/polo-30-al-1-plomo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Polo de trabajo en tela delgada, color plomo, pensado para brindar comodidad y frescura durante jornadas prolongadas. Su tejido ligero lo hace adecuado para climas cálidos o actividades de alta exigencia física.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Plomo, tela delgada"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Polos 30 al 1 Tela Delgada",
+    "imagen": "img/productos/polos-30-al-1.webp",
+    "imagenes": [
+      "img/productos/polos-30-al-1.webp",
+      "img/productos/polos-30-al-1-azul.webp",
+      "img/productos/polos-30-al-1-azul-marino.webp",
+      "img/productos/polos-30-al-1-azulino.webp",
+      "img/productos/polos-30-al-1-naranja.webp",
+      "img/productos/polos-30-al-1-rojo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Polo de trabajo en tela delgada disponible en varios colores, orientado a ofrecer frescura y comodidad durante el uso diario. Su tejido ligero resulta conveniente para labores en ambientes cálidos.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Tela delgada"
+      }
+    ],
+    "colores": [
+      "Azul marino",
+      "naranja",
+      "azulino",
+      "verde jade",
+      "rojo",
+      "negro",
+      "más"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Polo 20 al 1 Plomo Tela Gruesa",
+    "imagen": "img/productos/polo-20-al-1-plomo.webp",
+    "imagenes": [
+      "img/productos/polo-20-al-1-plomo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Polo de trabajo en tela gruesa color plomo, con mayor densidad de tejido que aporta durabilidad frente al desgaste. Una opción resistente para actividades que exponen la prenda a fricción o uso intensivo.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Plomo, tela gruesa"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Polos 20 al 1 Tela Gruesa",
+    "imagen": "img/productos/polos-20-al-1.webp",
+    "imagenes": [
+      "img/productos/polos-20-al-1.webp",
+      "img/productos/polos-30-al-1-azul.webp",
+      "img/productos/polos-30-al-1-azul-marino.webp",
+      "img/productos/polos-30-al-1-azulino.webp",
+      "img/productos/polos-30-al-1-naranja.webp",
+      "img/productos/polos-30-al-1-rojo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Polo de trabajo en tela gruesa, confeccionado para resistir el desgaste propio de las labores diarias. Su tejido de mayor densidad lo hace conveniente para trabajos de campo o taller.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Tela gruesa"
+      }
+    ],
+    "colores": [
+      "Azul marino",
+      "naranja",
+      "azulino",
+      "verde jade",
+      "rojo",
+      "negro",
+      "más"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Polo Piqué cuello camisero Plomo",
+    "imagen": "img/productos/polo-pique-cuello-camisero-plomo.webp",
+    "imagenes": [
+      "img/productos/polo-pique-cuello-camisero-plomo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Polo tipo piqué con cuello camisero, color plomo, pensado para dar una presentación más formal dentro del uniforme de trabajo. Adecuado para personal administrativo o de atención al público.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Camisa Oxford azul italiano nacional",
+    "imagen": "img/productos/camisa-oxford-azul-italiano-nacional.webp",
+    "imagenes": [
+      "img/productos/camisa-oxford-azul-italiano-nacional.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Camisa de vestir en tela Oxford, color azul italiano, orientada al uso dentro de uniformes formales. Una opción adecuada para labores administrativas o de oficina.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Chalecos malla liviana",
+    "imagen": "img/productos/chalecos-malla-liviana.webp",
+    "imagenes": [
+      "img/productos/chalecos-malla-liviana.webp",
+      "img/productos/chalecos-malla-pesada-verde-limon.webp",
+      "img/productos/chalecos-malla-pesada-naranja.webp"
+    ],
+    "precio": 0.0,
+    "destacado": true,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Chaleco de seguridad confeccionado en malla liviana, que favorece la ventilación durante su uso. Pensado para brindar visibilidad al trabajador en campo sin generar sensación de calor excesivo.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Malla liviana"
+      }
+    ],
+    "colores": [
+      "Naranja",
+      "verde limón"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 14,
+    "nombre": "Chalecos malla pesada Clute",
+    "imagen": "img/productos/chalecos-malla-pesada-clute.webp",
+    "imagenes": [
+      "img/productos/chalecos-malla-pesada-clute.webp",
+      "img/productos/chalecos-malla-pesada-verde-limon.webp",
+      "img/productos/chalecos-malla-pesada-naranja.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Clute",
+    "descripcion": "Chaleco de seguridad en malla pesada, de mayor densidad que la versión liviana, orientado a ofrecer mayor durabilidad frente al uso constante. Adecuado para trabajos de campo con exposición prolongada.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Malla pesada"
+      }
+    ],
+    "colores": [
+      "Naranja",
+      "verde limón"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 15,
+    "nombre": "Chalecos Drill H",
+    "imagen": "img/productos/chalecos-drill-h.webp",
+    "imagenes": [
+      "img/productos/chalecos-drill-h.webp",
+      "img/productos/chalecos-drill-h-1.webp",
+      "img/productos/chalecos-drill-h-2.webp",
+      "img/productos/chalecos-drill-h-3.webp",
+      "img/productos/chalecos-drill-h-4.webp",
+      "img/productos/chalecos-drill-h-5.webp",
+      "img/productos/chalecos-drill-h-6.webp",
+      "img/productos/chalecos-drill-h-7.webp",
+      "img/productos/chalecos-drill-h-8.webp",
+      "img/productos/chalecos-drill-h-9.webp"
+    ],
+    "precio": 0.0,
+    "destacado": true,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Chaleco de seguridad tipo H, confeccionado en tela Drill con cinta reflectiva china de 2 pulgadas, que aporta mayor visibilidad al trabajador. Una opción resistente para uso en obras o vías con tránsito vehicular.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Material Drill + cinta china 2\""
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Chalecos Drill Reportero",
+    "imagen": "img/productos/chalecos-drill-reportero.webp",
+    "imagenes": [
+      "img/productos/chalecos-drill-reportero.webp",
+      "img/productos/chalecos-drill-reportero-1.webp",
+      "img/productos/chalecos-drill-reportero-2.webp",
+      "img/productos/chalecos-drill-reportero-3.webp",
+      "img/productos/chalecos-drill-reportero-4.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Chaleco de seguridad tipo reportero, confeccionado en tela Drill con bolsillos de cierre que facilitan guardar herramientas u objetos pequeños durante la jornada. Práctico para labores que requieren desplazamiento constante.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Material Drill + cierre en bolsillos"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Chaleco Drill cinta 3M H Reportero con cierre atrás",
+    "imagen": "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras.webp",
+    "imagenes": [
+      "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras.webp",
+      "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras-1.webp",
+      "img/productos/chaleco-drill-cinta-3m-h-reportero-con-cierre-atras-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "3M",
+    "descripcion": "Chaleco de seguridad tipo reportero confeccionado en tela Drill, con cierre en la parte posterior que facilita su colocación. Incorpora cinta reflectiva 3M que contribuye a la visibilidad del trabajador en campo.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Casaca acolchada impermeable cinta china",
+    "imagen": "img/productos/casaca-acolchada-impermeable-cinta-china.webp",
+    "imagenes": [
+      "img/productos/casaca-acolchada-impermeable-cinta-china.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Casaca de trabajo pensada para brindar protección frente a condiciones climáticas adversas durante las jornadas laborales. Su diseño acolchado aporta mayor abrigo, mientras que la construcción impermeable ayuda a mantener al trabajador protegido frente a la lluvia. Una alternativa práctica para trabajos realizados en exteriores.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Camisas Drill con cinta",
+    "imagen": "img/productos/camisas-drill-con-cinta.webp",
+    "imagenes": [
+      "img/productos/camisas-drill-con-cinta.webp",
+      "img/productos/camisas-drill-con-cinta-azul-marino.webp",
+      "img/productos/camisas-drill-con-cinta-naranja.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Camisa de trabajo en tela Drill, con cinta reflectiva china de 1 pulgada que suma visibilidad al usuario. Confeccionada para resistir el uso diario en campo o taller.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Material Drill con cinta china 1\""
+      }
+    ],
+    "colores": [
+      "Azul marino",
+      "naranja"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Pantalón jean lavado sin cinta",
+    "imagen": "img/productos/pantalon-jean-lavado-sin-cinta.webp",
+    "imagenes": [
+      "img/productos/pantalon-jean-lavado-sin-cinta.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Pantalón de trabajo en jean lavado, sin cinta reflectiva, pensado para uso diario donde no se requiere señalización adicional. Una opción resistente para labores generales.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "Pantalón jean lavado con cinta",
+    "imagen": "img/productos/pantalon-jean-lavado-con-cinta.webp",
+    "imagenes": [
+      "img/productos/pantalon-jean-lavado-con-cinta.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Pantalón de trabajo en jean lavado de 14 onzas, con cinta reflectiva que aporta visibilidad al usuario. El peso del denim le da mayor resistencia frente al desgaste diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Jean 14 onzas"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Camisa jean lavado",
+    "imagen": "img/productos/camisa-jean-lavado.webp",
+    "imagenes": [
+      "img/productos/camisa-jean-lavado.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Camisa de trabajo en jean lavado, pensada como complemento del uniforme para labores donde se requiere una prenda resistente y de fácil mantenimiento.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "Pantalón jean crudo",
+    "imagen": "img/productos/pantalon-jean-crudo.webp",
+    "imagenes": [
+      "img/productos/pantalon-jean-crudo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Pantalón de trabajo en jean crudo, sin proceso de lavado, orientado a quienes buscan una prenda resistente para uso en campo o taller.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Camisa jean crudo",
+    "imagen": "img/productos/camisa-jean-crudo.webp",
+    "imagenes": [
+      "img/productos/camisa-jean-crudo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Camisa de trabajo en jean crudo de 14 onzas, cuyo mayor peso de tela aporta resistencia frente al desgaste diario en labores de campo o taller.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Jean 14 onzas"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "Poncho PVC y poliéster SEGPRO",
+    "imagen": "img/productos/poncho-pvc-y-poliester-segpro.webp",
+    "imagenes": [
+      "img/productos/poncho-pvc-y-poliester-segpro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "SEGPRO",
+    "descripcion": "Poncho impermeable en PVC y poliéster, disponible en variedad de colores, diseñado para proteger al trabajador de la lluvia durante labores realizadas a la intemperie.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Variedad de colores"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Poncho PVC Clute",
+    "imagen": "img/productos/poncho-pvc-clute.webp",
+    "imagenes": [
+      "img/productos/poncho-pvc-clute.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Clute",
+    "descripcion": "Poncho impermeable en PVC, disponible en variedad de colores, pensado para cubrir al trabajador frente a la lluvia durante jornadas en exteriores.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Variedad de colores"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "Poncho PVC y poliéster naranja con cinta reflectiva Clute",
+    "imagen": "img/productos/poncho-pvc-y-poliester-naranja-con-cinta-reflectiva-clute.webp",
+    "imagenes": [
+      "img/productos/poncho-pvc-y-poliester-naranja-con-cinta-reflectiva-clute.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Clute",
+    "descripcion": "Poncho impermeable en PVC y poliéster, color naranja, que incorpora cinta reflectiva para mejorar la visibilidad del trabajador. Adecuado para labores a la intemperie con poca luz o tránsito vehicular.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "Mamelucos Drill delgados",
+    "imagen": "img/productos/mamelucos-drill-delgados.webp",
+    "imagenes": [
+      "img/productos/mamelucos-drill-delgados.webp",
+      "img/productos/mamelucos-drill-delgados-azul.webp",
+      "img/productos/mamelucos-drill-delgados-naranja.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Mameluco de trabajo en tela Drill delgada, que cubre el cuerpo en una sola pieza durante la jornada laboral. Su tejido ligero resulta conveniente para climas cálidos.",
+    "especificaciones": [],
+    "colores": [
+      "Azul",
+      "naranja"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "Chompa Jorge Chávez",
+    "imagen": "img/productos/chompa-jorge-chavez.webp",
+    "imagenes": [
+      "img/productos/chompa-jorge-chavez.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Chompa de trabajo pensada para brindar abrigo durante jornadas en ambientes fríos, como complemento del uniforme diario.",
+    "especificaciones": [],
+    "colores": [
+      "Negro",
+      "azul"
+    ],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "Cortavientos Drill",
+    "imagen": "img/productos/cortavientos-drill.webp",
+    "imagenes": [
+      "img/productos/cortavientos-drill.webp",
+      "img/productos/cortavientos-drill-rojo.webp",
+      "img/productos/cortavientos-drill-amarillo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Cortavientos en tela Drill, diseñado para proteger al trabajador del viento durante labores realizadas al aire libre.",
+    "especificaciones": [],
+    "colores": [
+      "Rojo",
+      "naranja",
+      "azul",
+      "plomo",
+      "verde fosforescente",
+      "amarillo",
+      "celeste"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 31,
+    "nombre": "Cortavientos con polar",
+    "imagen": "img/productos/cortavientos-con-polar.webp",
+    "imagenes": [
+      "img/productos/cortavientos-con-polar.webp",
+      "img/productos/cortavientos-con-polar-naranja.webp",
+      "img/productos/cortavientos-con-polar-azul.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Cortavientos en tela Taslán impermeable con forro polar interior, que combina protección frente al agua con mayor abrigo. Una opción adecuada para trabajos en exteriores con clima frío o lluvioso.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Material Taslán impermeable con polar"
+      }
+    ],
+    "colores": [
+      "Naranja",
+      "azul"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 32,
+    "nombre": "Chavitos con diseño",
+    "imagen": "img/productos/chavitos-con-diseno.webp",
+    "imagenes": [
+      "img/productos/chavitos-con-diseno.webp",
+      "img/productos/chavitos-con-diseno-1.webp",
+      "img/productos/chavitos-con-diseno-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Prenda de trabajo con diseños variados, asignados de forma aleatoria al momento del despacho. Pensada como complemento práctico dentro del uniforme diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Diseños variados al azar"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 33,
+    "nombre": "Chavito jean crudo",
+    "imagen": "img/productos/chavito-jean-crudo.webp",
+    "imagenes": [
+      "img/productos/chavito-jean-crudo.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Ropa de trabajo",
+    "marca": "Nacional",
+    "descripcion": "Chavito en jean crudo, confeccionado para complementar el uniforme de trabajo con una prenda resistente al uso diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Jean crudo"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 34,
+    "nombre": "Sombrero con tapasol",
+    "imagen": "img/productos/sombrero-con-tapasol.webp",
+    "imagenes": [
+      "img/productos/sombrero-con-tapasol.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Gorros y sombreros",
+    "marca": "Nacional",
+    "descripcion": "Sombrero con tapasol integrado, diseñado para proteger el cuello y el rostro del trabajador frente a la exposición solar durante labores realizadas al aire libre.",
+    "especificaciones": [],
+    "colores": [
+      "Azul marino",
+      "plomo",
+      "beige",
+      "verde botella",
+      "negro",
+      "azulino"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 35,
+    "nombre": "Gorro con tapasol",
+    "imagen": "img/productos/gorro-con-tapasol.webp",
+    "imagenes": [
+      "img/productos/gorro-con-tapasol.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Gorros y sombreros",
+    "marca": "Nacional",
+    "descripcion": "Gorro con tapasol integrado, pensado para cubrir la nuca y el cuello del trabajador durante jornadas de exposición al sol en exteriores.",
+    "especificaciones": [],
+    "colores": [
+      "Azul marino",
+      "plomo",
+      "beige",
+      "verde botella",
+      "negro",
+      "azulino"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 36,
+    "nombre": "Casco Bellpower con suspensión plástico",
+    "imagen": "img/productos/casco-bellpower-con-suspension-plastico.webp",
+    "imagenes": [
+      "img/productos/casco-bellpower-con-suspension-plastico.webp",
+      "img/productos/casco-bellpower-con-suspension-plastico-1.webp",
+      "img/productos/casco-bellpower-con-suspension-plastico-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "Bellpower",
+    "descripcion": "Casco de seguridad con sistema de suspensión de plástico, diseñado para amortiguar impactos y proteger la cabeza del trabajador durante sus labores diarias.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión plástico"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 37,
+    "nombre": "Casco Clute Stark con suspensión regulable",
+    "imagen": "img/productos/casco-clute-stark-con-suspension-regulable.webp",
+    "imagenes": [
+      "img/productos/casco-clute-stark-con-suspension-regulable.webp",
+      "img/productos/casco-clute-stark-con-suspension-regulable-1.webp",
+      "img/productos/casco-clute-stark-con-suspension-regulable-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "Clute",
+    "descripcion": "Casco de seguridad con suspensión regulable, que permite ajustar el calce a la cabeza del usuario para mayor comodidad durante jornadas prolongadas.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión regulable"
+      }
+    ],
+    "colores": [
+      "Blanco",
+      "verde",
+      "rojo",
+      "amarillo",
+      "gris",
+      "azul",
+      "negro",
+      "rosado",
+      "anaranjado"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 38,
+    "nombre": "Casco Forte STEELPRO con suspensión regulable",
+    "imagen": "img/productos/casco-forte-steelpro-con-suspension-regulable.webp",
+    "imagenes": [
+      "img/productos/casco-forte-steelpro-con-suspension-regulable.webp",
+      "img/productos/casco-forte-steelpro-con-suspension-regulable-1.webp",
+      "img/productos/casco-forte-steelpro-con-suspension-regulable-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "STEELPRO",
+    "descripcion": "Casco de seguridad Forte con suspensión regulable, pensado para adaptarse a distintos tamaños de cabeza y brindar protección estable durante el trabajo diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión regulable"
+      }
+    ],
+    "colores": [
+      "Celeste",
+      "naranja",
+      "verde",
+      "rojo"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 39,
+    "nombre": "Casco Tridentecon-suspensión-regulable",
+    "imagen": "img/productos/casco-tridente-con-suspension-regulable.webp",
+    "imagenes": [
+      "img/productos/casco-tridente-con-suspension-regulable.webp",
+      "img/productos/casco-tridente-con-suspension-regulable-1.webp",
+      "img/productos/casco-tridente-con-suspension-regulable-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "Nacional",
+    "descripcion": "Casco de seguridad con suspensión regulable, diseñado para ofrecer un ajuste cómodo y una protección constante durante la jornada laboral.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión regulable"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 40,
+    "nombre": "Casco 3M H7001 con-suspensión regulable",
+    "imagen": "img/productos/casco-3m-h7001-con-suspension-regulable.webp",
+    "imagenes": [
+      "img/productos/casco-3m-h7001-con-suspension-regulable.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "3M",
+    "descripcion": "Casco de seguridad 3M con suspensión regulable, que facilita el ajuste a la cabeza del trabajador y contribuye a una protección más estable durante el uso prolongado.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión regulable"
+      }
+    ],
+    "colores": [
+      "Blanco",
+      "azul",
+      "naranja",
+      "amarillo"
+    ],
+    "tallas": []
+  },
+  {
+    "id": 41,
+    "nombre": "Casco minero Bellpower cons suspención plastico",
+    "imagen": "img/productos/casco-minero-bellpower-con-suspension-plastico.webp",
+    "imagenes": [
+      "img/productos/casco-minero-bellpower-con-suspension-plastico.webp",
+      "img/productos/casco-minero-bellpower-con-suspension-plastico-1.webp",
+      "img/productos/casco-minero-bellpower-con-suspension-plastico-2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Cascos de seguridad",
+    "marca": "Bellpower",
+    "descripcion": "Casco de seguridad para uso minero, con suspensión de plástico, pensado para acompañar al trabajador en labores subterráneas o de socavón.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Con suspensión plástico"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 42,
+    "nombre": "Careta soldar Asa",
+    "imagen": "img/productos/careta-soldar-asa.webp",
+    "imagenes": [
+      "img/productos/careta-soldar-asa.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Caretas y máscaras para soldar",
+    "marca": "Nacional",
+    "descripcion": "Careta para soldar, diseñada para proteger el rostro del trabajador frente a chispas, radiación y salpicaduras durante labores de soldadura.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 43,
+    "nombre": "Máscara para soldar Clute nylon visor levantable 633P",
+    "imagen": "img/productos/mascara-para-soldar-clute-nylon-visor-levantable-633p.webp",
+    "imagenes": [
+      "img/productos/mascara-para-soldar-clute-nylon-visor-levantable-633p.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Caretas y máscaras para soldar",
+    "marca": "Clute",
+    "descripcion": "Máscara para soldar en nylon, con visor levantable que permite revisar el trabajo sin retirarse la protección por completo. Pensada para tareas de soldadura que requieren cambios frecuentes de posición del visor.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 44,
+    "nombre": "Máscara para soldar Clute visor levantable p/adaptar a casco 6PA2",
+    "imagen": "img/productos/mascara-para-soldar-clute-visor-levantable-padaptar-a-casco-6pa2.webp",
+    "imagenes": [
+      "img/productos/mascara-para-soldar-clute-visor-levantable-padaptar-a-casco-6pa2.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Caretas y máscaras para soldar",
+    "marca": "Clute",
+    "descripcion": "Máscara para soldar con visor levantable, adaptable a casco de seguridad, pensada para trabajadores que requieren protección combinada durante tareas de soldadura en campo.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 45,
+    "nombre": "Barbiquejo nacional",
+    "imagen": "img/productos/barbiquejo-nacional.webp",
+    "imagenes": [
+      "img/productos/barbiquejo-nacional.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Barbiquejos",
+    "marca": "Nacional",
+    "descripcion": "Barbiquejo diseñado para sujetar el casco de seguridad a la cabeza del trabajador, evitando que se desprenda durante el desarrollo de sus labores.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 46,
+    "nombre": "Barbiquejo Clute",
+    "imagen": "img/productos/barbiquejo-clute.webp",
+    "imagenes": [
+      "img/productos/barbiquejo-clute.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Barbiquejos",
+    "marca": "Clute",
+    "descripcion": "Barbiquejo pensado para asegurar el casco de seguridad durante el trabajo, evitando desplazamientos o caídas accidentales del mismo.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 47,
+    "nombre": "Guante hilo con palma látex CONSEG",
+    "imagen": "img/productos/guante-hilo-con-palma-latex-conseg.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-con-palma-latex-conseg.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de hilo con palma de látex, pensado para tareas que requieren agarre y protección básica de las manos durante el trabajo diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Marcas: Conseg, Gao Naranja, Duraflex"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 110,
+    "nombre": "Guante hilo con palma látex GAO NARANJA",
+    "imagen": "img/productos/guante-hilo-con-palma-latex-gao-naranja.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-con-palma-latex.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de hilo con palma de látex color naranja, orientado a ofrecer un agarre firme durante tareas manuales de uso general.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Marcas: Conseg, Gao Naranja, Duraflex"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "Guante Forteflex naranja Gao",
+    "imagen": "img/productos/guante-forteflex-naranja-gao.webp",
+    "imagenes": [
+      "img/productos/guante-forteflex-naranja-gao.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Gao",
+    "descripcion": "Guante de hilo naranja con palma de látex reforzado doble, que aporta mayor resistencia frente al desgaste en tareas de manipulación intensiva.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Guante hilo naranja con palma látex reforzado doble"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "Guante hilo rojo palma látex Clute",
+    "imagen": "img/productos/guante-hilo-rojo-palma-latex-clute.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-rojo-palma-latex-clute.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Clute",
+    "descripcion": "Guante de hilo con palma de látex color rojo, pensado para tareas de manipulación general que requieren un agarre básico.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "Guante hilo amarillo palma látex Clute",
+    "imagen": "img/productos/guante-hilo-amarillo-palma-latex-clute.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-amarillo-palma-latex-clute.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Clute",
+    "descripcion": "Guante de hilo con palma de látex color amarillo, orientado a tareas de manipulación general dentro del trabajo diario.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 51,
+    "nombre": "Guante hilo rojo palma látex STEELPRO",
+    "imagen": "img/productos/guante-hilo-rojo-palma-latex-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-rojo-palma-latex-steelpro.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante de hilo con palma de látex color rojo, diseñado para ofrecer un agarre práctico durante labores de manipulación de materiales.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 52,
+    "nombre": "Guante Cut 5 STEELPRO",
+    "imagen": "img/productos/guante-cut-5-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-cut-5-steelpro.webp"
+    ],
+    "precio": 120.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante con resistencia al corte nivel 5, diseñado para proteger las manos durante tareas que involucran manipulación de materiales cortantes o filosos.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 53,
+    "nombre": "Guante Cut 5 Flyflex",
+    "imagen": "img/productos/guante-cut-5-flyflex.webp",
+    "imagenes": [
+      "img/productos/guante-cut-5-flyflex.webp"
+    ],
+    "precio": 12.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante con nivel de protección al corte 5, pensado para tareas de manipulación de piezas o materiales con bordes filosos.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 54,
+    "nombre": "Guante Hyflex 11-727",
+    "imagen": "img/productos/guante-hyflex-11-727.webp",
+    "imagenes": [
+      "img/productos/guante-hyflex-11-727.webp"
+    ],
+    "precio": 260.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de trabajo pensado para tareas de manipulación que requieren precisión y buen ajuste a la mano durante el uso diario.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 55,
+    "nombre": "Guante hilo con punto PVC ambos lados",
+    "imagen": "img/productos/guante-hilo-con-punto-pvc-ambos-lados.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-con-punto-pvc-ambos-lados.webp"
+    ],
+    "precio": 20.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de hilo con puntos de PVC en ambos lados, que mejora el agarre durante la manipulación de objetos en tareas generales.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 56,
+    "nombre": "Guante hilo blanco con punto PVC ambos lados",
+    "imagen": "img/productos/guante-hilo-blanco-con-punto-pvc-ambos-lados.webp",
+    "imagenes": [
+      "img/productos/guante-hilo-blanco-con-punto-pvc-ambos-lados.webp"
+    ],
+    "precio": 24.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de hilo color blanco con puntos de PVC en ambos lados, orientado a mejorar el agarre durante tareas de manipulación general.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 57,
+    "nombre": "Guante de hilo punto PVC Clute",
+    "imagen": "img/productos/guante-de-hilo-punto-pvc-clute.webp",
+    "imagenes": [
+      "img/productos/guante-de-hilo-punto-pvc-clute.webp"
+    ],
+    "precio": 28.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Clute",
+    "descripcion": "Guante de hilo con puntos de PVC, pensado para ofrecer mayor agarre durante la manipulación de materiales en el trabajo diario.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 58,
+    "nombre": "Guante cuero exterior largo",
+    "imagen": "img/productos/guante-cuero-exterior-largo.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-exterior-largo.webp"
+    ],
+    "precio": 14.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de cuero de exterior largo, diseñado para brindar mayor protección al antebrazo durante tareas que exponen las manos a fricción o superficies ásperas.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 59,
+    "nombre": "Guante cuero cromo exterior corto",
+    "imagen": "img/productos/guante-cuero-cromo-exterior-corto.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-cromo-exterior-corto.webp"
+    ],
+    "precio": 75.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de cuero cromo de exterior corto, pensado para tareas de manipulación que requieren protección básica de la mano.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 60,
+    "nombre": "Guante cuero cromo exterior reforzado corto",
+    "imagen": "img/productos/guante-cuero-cromo-exterior-reforzado-corto.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-cromo-exterior-reforzado-corto.webp"
+    ],
+    "precio": 85.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de cuero cromo de exterior corto con refuerzo adicional, orientado a tareas de manipulación más exigentes donde se requiere mayor durabilidad.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 61,
+    "nombre": "Guantes impermeable azul Zeus",
+    "imagen": "img/productos/guantes-impermeable-azul-zeus.webp",
+    "imagenes": [
+      "img/productos/guantes-impermeable-azul-zeus.webp"
+    ],
+    "precio": 38.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante impermeable color azul, diseñado para proteger las manos durante tareas realizadas en ambientes húmedos o con contacto directo con agua.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "Guante G40 nitrilo Kleenguard",
+    "imagen": "img/productos/guante-g40-nitrilo-kleenguard.webp",
+    "imagenes": [
+      "img/productos/guante-g40-nitrilo-kleenguard.webp"
+    ],
+    "precio": 9.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Kleenguard",
+    "descripcion": "Guante recubierto en nitrilo, pensado para tareas de manipulación que requieren protección frente a superficies abrasivas y buen agarre.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 63,
+    "nombre": "Guante G40 látex Kleenguard",
+    "imagen": "img/productos/guante-g40-latex-kleenguard.webp",
+    "imagenes": [
+      "img/productos/guante-g40-latex-kleenguard.webp"
+    ],
+    "precio": 10.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Kleenguard",
+    "descripcion": "Guante recubierto en látex, orientado a tareas de manipulación general que requieren un buen nivel de agarre y sensibilidad al tacto.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": 64,
+    "nombre": "Guante Showa 377",
+    "imagen": "img/productos/guante-showa-377.webp",
+    "imagenes": [
+      "img/productos/guante-showa-377.webp"
+    ],
+    "precio": 21.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Showa",
+    "descripcion": "Guante recubierto pensado para tareas de manipulación que requieren buen agarre en condiciones de trabajo húmedas o aceitosas.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 65,
+    "nombre": "Guante anti-impacto Portwest",
+    "imagen": "img/productos/guante-anti-impacto-portwest.webp",
+    "imagenes": [
+      "img/productos/guante-anti-impacto-portwest.webp"
+    ],
+    "precio": 40.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Portwest",
+    "descripcion": "Guante anti-impacto, diseñado para proteger el dorso de la mano frente a golpes durante tareas de manipulación de herramientas o materiales pesados.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 66,
+    "nombre": "Guante anti-impacto Hexarmor 2021X",
+    "imagen": "img/productos/guante-anti-impacto-hexarmor-2021x.webp",
+    "imagenes": [
+      "img/productos/guante-anti-impacto-hexarmor-2021x.webp"
+    ],
+    "precio": 45.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Hexarmor",
+    "descripcion": "Guante anti-impacto de alta protección, pensado para tareas donde existe riesgo de golpes o aplastamiento de las manos durante el trabajo.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 67,
+    "nombre": "Guante cuero Driver blanco STEELPRO",
+    "imagen": "img/productos/guante-cuero-driver-blanco-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-driver-blanco-steelpro.webp"
+    ],
+    "precio": 60.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante de cuero tipo Driver color blanco, diseñado para brindar comodidad y buen ajuste durante tareas de manipulación general.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 68,
+    "nombre": "Guante cuero Driver amarillo STEELPRO",
+    "imagen": "img/productos/guante-cuero-driver-amarillo-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-driver-amarillo-steelpro.webp"
+    ],
+    "precio": 62.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante de cuero tipo Driver color amarillo, pensado para ofrecer comodidad y buen ajuste durante tareas de manejo de herramientas o materiales.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 69,
+    "nombre": "Guante Badana Tecseg blanco",
+    "imagen": "img/productos/guante-badana-tecseg-blanco.webp",
+    "imagenes": [
+      "img/productos/guante-badana-tecseg-blanco.webp"
+    ],
+    "precio": 57.0,
+    "destacado": true,
+    "categoria": "Guantes",
+    "marca": "Tecseg",
+    "descripcion": "Guante de badana color blanco, cuyo material aporta suavidad y flexibilidad durante tareas de manipulación que requieren buen tacto.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Badana"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": 70,
+    "nombre": "Guante Badana Tecseg amarillo",
+    "imagen": "img/productos/guante-badana-tecseg-amarillo.webp",
+    "imagenes": [
+      "img/productos/guante-badana-tecseg-amarillo.webp"
+    ],
+    "precio": 57.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Tecseg",
+    "descripcion": "Guante de badana color amarillo, pensado para tareas que requieren flexibilidad y comodidad durante la manipulación de materiales.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Badana"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": 71,
+    "nombre": "Guante Badana blanco STEELPRO",
+    "imagen": "img/productos/guante-badana-blanco-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-badana-blanco-steelpro.webp"
+    ],
+    "precio": 65.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante de badana color blanco, diseñado para ofrecer flexibilidad y buen tacto durante tareas de manipulación general.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Badana"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 72,
+    "nombre": "Guante Badana amarillo STEELPRO",
+    "imagen": "img/productos/guante-badana-amarillo-steelpro.webp",
+    "imagenes": [
+      "img/productos/guante-badana-amarillo-steelpro.webp"
+    ],
+    "precio": 65.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "STEELPRO",
+    "descripcion": "Guante de badana color amarillo, orientado a tareas de manipulación que requieren comodidad y buen ajuste a la mano.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Badana"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 73,
+    "nombre": "Guante soldador Indura naranja",
+    "imagen": "img/productos/guante-soldador-indura-naranja.webp",
+    "imagenes": [
+      "img/productos/guante-soldador-indura-naranja.webp"
+    ],
+    "precio": 0.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Indura",
+    "descripcion": "Guante para soldador color naranja, diseñado para proteger las manos frente al calor y las chispas durante labores de soldadura.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 74,
+    "nombre": "Guante cuero soldador palma reforzado",
+    "imagen": "img/productos/guante-cuero-soldador-palma-reforzado.webp",
+    "imagenes": [
+      "img/productos/guante-cuero-soldador-palma-reforzado.webp"
+    ],
+    "precio": 20.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de cuero para soldador, con refuerzo en la palma y los nudillos, pensado para brindar mayor protección frente al calor y el roce durante tareas de soldadura.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Refuerzo en la palma y nudillos color negro"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 75,
+    "nombre": "Guante nitrilo Touch",
+    "imagen": "img/productos/guante-nitrilo-touch.webp",
+    "imagenes": [
+      "img/productos/guante-nitrilo-touch.webp"
+    ],
+    "precio": 55.0,
+    "destacado": false,
+    "categoria": "Guantes",
+    "marca": "Nacional",
+    "descripcion": "Guante de nitrilo diseñado para proteger las manos frente a salpicaduras químicas, manteniendo sensibilidad al tacto durante tareas de manipulación de precisión.",
+    "especificaciones": [
+      {
+        "etiqueta": "Material",
+        "valor": "Nitrilo"
+      },
+      {
+        "etiqueta": "Detalle",
+        "valor": "Protección contra salpicaduras químicas"
+      }
+    ],
+    "colores": [],
+    "tallas": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "id": 76,
+    "nombre": "Lente Visión HC Tecseg oscuro",
+    "imagen": "img/productos/lente-vision-hc-tecseg-oscuro.webp",
+    "imagenes": [
+      "img/productos/lente-vision-hc-tecseg-oscuro.webp"
+    ],
+    "precio": 23.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Tecseg",
+    "descripcion": "Lente de protección con tratamiento HC (hard coat), color oscuro, pensado para proteger la vista del trabajador frente a partículas y mejorar la resistencia del lente frente a rayaduras.",
+    "especificaciones": [
+      {
+        "etiqueta": "Tipo",
+        "valor": "HC"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 77,
+    "nombre": "Lente Visión HC Tecseg claro",
+    "imagen": "img/productos/lente-vision-hc-tecseg-claro.webp",
+    "imagenes": [
+      "img/productos/lente-vision-hc-tecseg-claro.webp"
+    ],
+    "precio": 23.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Tecseg",
+    "descripcion": "Lente de protección con tratamiento HC (hard coat), color claro, diseñado para acompañar al trabajador en tareas que requieren protección ocular en ambientes con poca luz.",
+    "especificaciones": [
+      {
+        "etiqueta": "Tipo",
+        "valor": "HC"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 78,
+    "nombre": "Lente HC económico oscuro",
+    "imagen": "img/productos/lente-hc-economico-oscuro.webp",
+    "imagenes": [
+      "img/productos/lente-hc-economico-oscuro.webp"
+    ],
+    "precio": 11.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Nacional",
+    "descripcion": "Lente de protección con tratamiento HC, color oscuro y marco en tonos azul y negro variado, pensado como una opción económica para proteger la vista durante tareas generales.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Marco azul y negro variado"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 79,
+    "nombre": "Lente HC económico claro",
+    "imagen": "img/productos/lente-hc-economico-claro.webp",
+    "imagenes": [
+      "img/productos/lente-hc-economico-claro.webp"
+    ],
+    "precio": 11.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Nacional",
+    "descripcion": "Lente de protección con tratamiento HC, color claro y marco en tonos azul y negro variado, orientado a brindar protección ocular básica a un costo accesible.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Marco azul y negro variado"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 80,
+    "nombre": "Lente K2 STEELPRO claro",
+    "imagen": "img/productos/lente-k2-steelpro-claro.webp",
+    "imagenes": [
+      "img/productos/lente-k2-steelpro-claro.webp"
+    ],
+    "precio": 15.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Lente de protección diseñado para acompañar al trabajador durante tareas que requieren protección ocular. Su tratamiento antiempañante ayuda a mantener una visión más clara y el recubrimiento antirayaduras contribuye a una mayor resistencia durante el uso cotidiano.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras, tipo Google"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 81,
+    "nombre": "Lente K2 STEELPRO oscuro",
+    "imagen": "img/productos/lente-k2-steelpro-oscuro.webp",
+    "imagenes": [
+      "img/productos/lente-k2-steelpro-oscuro.webp"
+    ],
+    "precio": 15.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Lente de protección oscuro, tipo Google, con tratamiento antiempañante y antirayaduras, pensado para tareas que exponen la vista a partículas y luz intensa.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras, tipo Google"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 82,
+    "nombre": "Lente Everest STEELPRO claro",
+    "imagen": "img/productos/lente-everest-steelpro-claro.webp",
+    "imagenes": [
+      "img/productos/lente-everest-steelpro-claro.webp"
+    ],
+    "precio": 15.5,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Lente de protección claro, diseñado para acompañar al trabajador durante tareas que requieren cuidado de la vista frente a partículas en ambientes con poca luz.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 83,
+    "nombre": "Lente Everest STEELPRO oscuro",
+    "imagen": "img/productos/lente-everest-steelpro-oscuro.webp",
+    "imagenes": [
+      "img/productos/lente-everest-steelpro-oscuro.webp"
+    ],
+    "precio": 15.5,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Lente de protección oscuro, pensado para proteger la vista del trabajador frente a partículas y luz solar intensa durante labores en exteriores.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 84,
+    "nombre": "Lente AF cuadrado oscuro Tecseg",
+    "imagen": "img/productos/lente-af-cuadrado-oscuro-tecseg.webp",
+    "imagenes": [
+      "img/productos/lente-af-cuadrado-oscuro-tecseg.webp"
+    ],
+    "precio": 33.5,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Tecseg",
+    "descripcion": "Lente de protección de marco cuadrado, color oscuro, con tratamiento antiempañante y antirayaduras que ayuda a mantener una visión clara durante el trabajo.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 85,
+    "nombre": "Lente AF cuadrado claro Tecseg",
+    "imagen": "img/productos/lente-af-cuadrado-claro-tecseg.webp",
+    "imagenes": [
+      "img/productos/lente-af-cuadrado-claro-tecseg.webp"
+    ],
+    "precio": 33.5,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Tecseg",
+    "descripcion": "Lente de protección de marco cuadrado, color claro, con tratamiento antiempañante y antirayaduras, pensado para tareas en interiores o con poca luz.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 86,
+    "nombre": "Lente AF SP100 cuadrado claro SEGPRO",
+    "imagen": "img/productos/lente-af-sp100-cuadrado-claro-segpro.webp",
+    "imagenes": [
+      "img/productos/lente-af-sp100-cuadrado-claro-segpro.webp"
+    ],
+    "precio": 32.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "SEGPRO",
+    "descripcion": "Lente de protección de marco cuadrado, modelo SP100, con tratamiento antiempañante y antirayaduras que favorece una visión más clara durante la jornada.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 87,
+    "nombre": "Sobrelente Top Gun STEELPRO oscuro",
+    "imagen": "img/productos/sobrelente-top-gun-steelpro-oscuro.webp",
+    "imagenes": [
+      "img/productos/sobrelente-top-gun-steelpro-oscuro.webp"
+    ],
+    "precio": 12.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Sobrelente color oscuro, diseñado para colocarse encima de lentes de medida u otros equipos de protección, brindando protección ocular adicional en exteriores.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 88,
+    "nombre": "Sobrelente Top Gun STEELPRO claro",
+    "imagen": "img/productos/sobrelente-top-gun-steelpro-claro.webp",
+    "imagenes": [
+      "img/productos/sobrelente-top-gun-steelpro-claro.webp"
+    ],
+    "precio": 12.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Sobrelente color claro, pensado para colocarse sobre lentes de medida y ofrecer protección ocular adicional en ambientes con poca luz.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 89,
+    "nombre": "Lente antiparra TRX Full Seal oscuro",
+    "imagen": "img/productos/lente-antiparra-trx-full-seal-oscuro.webp",
+    "imagenes": [
+      "img/productos/lente-antiparra-trx-full-seal-oscuro.webp"
+    ],
+    "precio": 8.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Nacional",
+    "descripcion": "Lente antiparra de sellado completo, color oscuro, que incorpora un inserto para adaptar lunas correctivas. Una solución práctica para trabajadores que requieren corrección óptica además de protección ocular.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 90,
+    "nombre": "Lente antiparra TRX Full Seal claro",
+    "imagen": "img/productos/lente-antiparra-trx-full-seal-claro.webp",
+    "imagenes": [
+      "img/productos/lente-antiparra-trx-full-seal-claro.webp"
+    ],
+    "precio": 8.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "Nacional",
+    "descripcion": "Lente antiparra de sellado completo, color claro, con inserto para adaptar lunas correctivas, pensado para quienes necesitan corrección óptica durante el trabajo.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Incorpora un práctico inserto que permite la adaptación de lunas, solución personalizada para quienes necesitan corrección óptica"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 91,
+    "nombre": "Lente Turbine STEELPRO claro",
+    "imagen": "img/productos/lente-turbine-steelpro-claro.webp",
+    "imagenes": [
+      "img/productos/lente-turbine-steelpro-claro.webp"
+    ],
+    "precio": 26.0,
+    "destacado": false,
+    "categoria": "Lentes de protección",
+    "marca": "STEELPRO",
+    "descripcion": "Lente de protección claro, con tratamiento antiempañante y antirayaduras, diseñado para mantener una visión estable durante tareas prolongadas.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Antiempañante y antirayaduras"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 92,
+    "nombre": "Porta herramientas doble bolsillo con martillero",
+    "imagen": "img/productos/porta-herramientas-doble-bolsillo-con-martillero.webp",
+    "imagenes": [
+      "img/productos/porta-herramientas-doble-bolsillo-con-martillero.webp"
+    ],
+    "precio": 20.0,
+    "destacado": false,
+    "categoria": "Porta herramientas",
+    "marca": "Nacional",
+    "descripcion": "Porta herramientas con doble bolsillo y portamartillo, diseñado para que el trabajador lleve sus herramientas organizadas y a la mano durante la jornada.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Nacional"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 93,
+    "nombre": "Porta herramientas 1 bolsón grande",
+    "imagen": "img/productos/porta-herramientas-1-bolson-grande.webp",
+    "imagenes": [
+      "img/productos/porta-herramientas-1-bolson-grande.webp"
+    ],
+    "precio": 15.0,
+    "destacado": false,
+    "categoria": "Porta herramientas",
+    "marca": "Nacional",
+    "descripcion": "Porta herramientas de un solo bolsón grande, pensado para almacenar y transportar herramientas de mayor tamaño durante el trabajo diario.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Nacional"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 94,
+    "nombre": "Linterna Opalux HB-2146-20W",
+    "imagen": "img/productos/linterna-opalux-hb-2146-20w.webp",
+    "imagenes": [
+      "img/productos/linterna-opalux-hb-2146-20w.webp"
+    ],
+    "precio": 220.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "Opalux",
+    "descripcion": "Linterna de 20W, diseñada para brindar iluminación al trabajador durante labores realizadas en ambientes con poca luz o durante la noche.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 95,
+    "nombre": "Linterna frontal roja Opalux 2W OP-5012",
+    "imagen": "img/productos/linterna-frontal-roja-opalux-2w-op-5012.webp",
+    "imagenes": [
+      "img/productos/linterna-frontal-roja-opalux-2w-op-5012.webp"
+    ],
+    "precio": 16.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "Opalux",
+    "descripcion": "Linterna frontal de 2W, color roja, pensada para dejar las manos libres del trabajador mientras ilumina el área de trabajo.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 96,
+    "nombre": "Linterna frontal Opalux 5W OP-5052",
+    "imagen": "img/productos/linterna-frontal-opalux-5w-op-5052.webp",
+    "imagenes": [
+      "img/productos/linterna-frontal-opalux-5w-op-5052.webp"
+    ],
+    "precio": 26.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "Opalux",
+    "descripcion": "Linterna frontal de 5W, diseñada para iluminar el área de trabajo dejando las manos libres durante labores en espacios con poca luz.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 97,
+    "nombre": "Linterna frontal Opalux OP-1102AM LED 3W",
+    "imagen": "img/productos/linterna-frontal-opalux-op-1102am-led-3w.webp",
+    "imagenes": [
+      "img/productos/linterna-frontal-opalux-op-1102am-led-3w.webp"
+    ],
+    "precio": 33.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "Opalux",
+    "descripcion": "Linterna frontal LED de 3W, pensada para ofrecer iluminación práctica durante tareas que se realizan en ambientes oscuros o de bajo nivel de luz.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 98,
+    "nombre": "Lámpara minera inalámbrica KL6000 STEELPRO",
+    "imagen": "img/productos/lampara-minera-inalambrica-kl6000-steelpro.webp",
+    "imagenes": [
+      "img/productos/lampara-minera-inalambrica-kl6000-steelpro.webp"
+    ],
+    "precio": 150.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "STEELPRO",
+    "descripcion": "Lámpara minera inalámbrica, diseñada para acompañar al trabajador durante labores subterráneas u otras actividades que requieren iluminación autónoma prolongada.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 99,
+    "nombre": "Lámpara de señalización",
+    "imagen": "img/productos/lampara-de-senalizacion.webp",
+    "imagenes": [
+      "img/productos/lampara-de-senalizacion.webp"
+    ],
+    "precio": 50.0,
+    "destacado": false,
+    "categoria": "Linternas y lámparas",
+    "marca": "Nacional",
+    "descripcion": "Lámpara de señalización, pensada para advertir sobre zonas de riesgo o delimitar áreas de trabajo durante labores en vías o espacios con tránsito.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 100,
+    "nombre": "Arnés + línea de vida Clute",
+    "imagen": "img/productos/arnes-linea-de-vida-clute.webp",
+    "imagenes": [
+      "img/productos/arnes-linea-de-vida-clute.webp",
+      "img/productos/arnes-linea-de-vida-clute-1.webp",
+      "img/productos/arnes-linea-de-vida-clute-2.webp"
+    ],
+    "precio": 108.5,
+    "destacado": false,
+    "categoria": "Arneses y accesorios de altura",
+    "marca": "Clute",
+    "descripcion": "Sistema de protección para trabajos en altura que integra arnés y línea de vida en un mismo conjunto. Está diseñado para proporcionar un sistema de sujeción durante labores realizadas en altura y cuenta con tres anillos y certificación. Una solución práctica para complementar los sistemas de protección contra caídas.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "3 anillos, certificado"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 101,
+    "nombre": "Arnés + línea de vida SEGPRO",
+    "imagen": "img/productos/arnes-linea-de-vida-segpro.webp",
+    "imagenes": [
+      "img/productos/arnes-linea-de-vida-segpro.webp",
+      "img/productos/arnes-linea-de-vida-segpro-1.webp",
+      "img/productos/arnes-linea-de-vida-segpro-2.webp"
+    ],
+    "precio": 108.0,
+    "destacado": false,
+    "categoria": "Arneses y accesorios de altura",
+    "marca": "SEGPRO",
+    "descripcion": "Sistema de protección para trabajos en altura que combina arnés y línea de vida certificados. Cuenta con tres anillos de sujeción, pensado para complementar los sistemas de protección contra caídas durante labores en altura.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "3 anillos, certificado"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 102,
+    "nombre": "Correa minero de nylon porta lámpara",
+    "imagen": "img/productos/correa-minero-de-nylon-porta-lampara.webp",
+    "imagenes": [
+      "img/productos/correa-minero-de-nylon-porta-lampara.webp"
+    ],
+    "precio": 9.0,
+    "destacado": false,
+    "categoria": "Arneses y accesorios de altura",
+    "marca": "Nacional",
+    "descripcion": "Correa de nylon para uso minero, diseñada para sujetar la lámpara durante labores subterráneas y facilitar su transporte en la cabeza o el casco del trabajador.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Nacional"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 103,
+    "nombre": "Orejera 3M Peltor H9A",
+    "imagen": "img/productos/orejera-3m-peltor-h9a.webp",
+    "imagenes": [
+      "img/productos/orejera-3m-peltor-h9a.webp"
+    ],
+    "precio": 85.0,
+    "destacado": false,
+    "categoria": "Protección auditiva",
+    "marca": "3M",
+    "descripcion": "Orejera de protección auditiva, recomendada para exposiciones a ruido de hasta 98 dBA (TWA). Pensada para proteger el oído del trabajador en ambientes con ruido constante.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Recomendadas para exposiciones al ruido TWA de hasta 98 dBA"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 104,
+    "nombre": "Orejera Peltor 3M H9P3E",
+    "imagen": "img/productos/orejera-peltor-3m-h9p3e.webp",
+    "imagenes": [
+      "img/productos/orejera-peltor-3m-h9p3e.webp"
+    ],
+    "precio": 85.0,
+    "destacado": false,
+    "categoria": "Protección auditiva",
+    "marca": "3M",
+    "descripcion": "Orejera de protección auditiva con clasificación de reducción de ruido (NRR) de 23 dB y certificación CSA Clase A, pensada para ambientes de trabajo con exposición sostenida al ruido.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Clasificación de reducción de ruido (NRR): 23 dB. CSA Clase A"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 105,
+    "nombre": "Tapón bolsita Clute x 100 unidades",
+    "imagen": "img/productos/tapon-bolsita-clute-x-100-und-bolsita.webp",
+    "imagenes": [
+      "img/productos/tapon-bolsita-clute-x-100-und-bolsita.webp"
+    ],
+    "precio": 54.0,
+    "destacado": false,
+    "categoria": "Protección auditiva",
+    "marca": "Clute",
+    "descripcion": "Tapón auditivo desechable, presentado en bolsitas individuales x100 unidades, pensado para proteger el oído del trabajador en ambientes con ruido durante la jornada.",
+    "especificaciones": [],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 106,
+    "nombre": "Tapón estuche Confort 2000 x 100 unidades SEGPRO",
+    "imagen": "img/productos/tapon-estuche-confort-2000-x-100-und-segpro.webp",
+    "imagenes": [
+      "img/productos/tapon-estuche-confort-2000-x-100-und-segpro.webp",
+      "img/productos/tapon-estuche-confort-2000-x-100-und-segpro-1.webp",
+      "img/productos/tapon-estuche-confort-2000-x-100-und-segpro-2.webp"
+    ],
+    "precio": 95.0,
+    "destacado": false,
+    "categoria": "Protección auditiva",
+    "marca": "SEGPRO",
+    "descripcion": "Tapón auditivo con atenuación SNR 30 dB / NRR 25 dB, presentado en estuche x100 unidades, diseñado para proteger el oído del trabajador en ambientes con ruido elevado.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Atenuación SNR 30 dB / NRR 25 dB"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 107,
+    "nombre": "Escarpín cuero cromo",
+    "imagen": "img/productos/escarpin-cuero-cromo.webp",
+    "imagenes": [
+      "img/productos/escarpin-cuero-cromo.webp"
+    ],
+    "precio": 12.0,
+    "destacado": false,
+    "categoria": "Accesorios para soldadura",
+    "marca": "Nacional",
+    "descripcion": "Escarpín de cuero cromo para soldar, diseñado para cubrir el calzado del trabajador y protegerlo frente a chispas durante tareas de soldadura.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Escarpín para soldar. Protección en los zapatos de chispas"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 108,
+    "nombre": "Manga cuero cromo",
+    "imagen": "img/productos/manga-cuero-cromo.webp",
+    "imagenes": [
+      "img/productos/manga-cuero-cromo.webp"
+    ],
+    "precio": 12.0,
+    "destacado": false,
+    "categoria": "Accesorios para soldadura",
+    "marca": "Nacional",
+    "descripcion": "Manga de cuero cromo para soldar, pensada para proteger el antebrazo del trabajador frente al calor y las chispas durante labores de soldadura.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Manga cuero cromo para soldar"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  },
+  {
+    "id": 109,
+    "nombre": "Mandil cromo soldadura",
+    "imagen": "img/productos/mandil-cromo-soldadura.webp",
+    "imagenes": [
+      "img/productos/mandil-cromo-soldadura.webp"
+    ],
+    "precio": 18.0,
+    "destacado": false,
+    "categoria": "Accesorios para soldadura",
+    "marca": "Nacional",
+    "descripcion": "Mandil de cuero cromo para soldar, diseñado para cubrir el torso del trabajador y protegerlo frente a chispas y salpicaduras durante tareas de soldadura.",
+    "especificaciones": [
+      {
+        "etiqueta": "Detalle",
+        "valor": "Mandil cuero cromo para soldar"
+      }
+    ],
+    "colores": [],
+    "tallas": []
+  }
 ]
