@@ -753,15 +753,15 @@
                         checkboxTarget.checked = true;
 
 
-                        const detailsParent =
-                            checkboxTarget.closest(
-                                "details"
-                            );
+                        // const detailsParent =
+                        //     checkboxTarget.closest(
+                        //         "details"
+                        //     );
 
 
-                        if (detailsParent) {
-                            detailsParent.open = true;
-                        }
+                        // if (detailsParent) {
+                        //     detailsParent.open = true;
+                        // }
                     }
                 }
 
